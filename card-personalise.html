@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Occasions</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+
+    <!--======================================== Font Family ========================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--======================================== Font Family ========================================-->
+
+    <!--======================================== CSS Links ========================================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--======================================== CSS Links ========================================-->
+</head>
+<body>
+    <!--======================================== Header Section ========================================-->
+    <header class="header-section">
+      <nav class="navbar navbar-expand-xl bg-theme-primary flex-column">
+          <div class="container align-items-start">
+              <div class="row align-items-center w-100">
+                  <div class="col-xl-6 col-3 order-0 order-xl-1">
+                      <div class="header responsive-header col-auto" id="header">
+                          <nav class="navbar container position-md-unset py-0">
+                              <section class="navbar-center ">
+                                  <div onclick="topFunction()" class="burger" id="burger">
+                                     <span class="burger-line"></span>
+                                     <span class="burger-line"></span>
+                                     <span class="burger-line"></span>
+                                  </div>
+                                 <span class="overlay"></span>
+                                 <div class="menu" id="menu">
+                                      
+                                    <div class="menu-header">
+                                       <span class="menu-arrow d-flex align-items-center justify-content-center">
+                                           <img src="images/icon-arrow-right-forward-orange.svg" width="16" class="rotate-180" alt="icon">
+                                       </span>
+                                       <span class="menu-title"></span>
+                                    </div>
+                                    <ul class="menu-inner ps-0 mb-0">
+                                       <li class="menu-item menu-dropdown">
+                                          <span class="menu-link">Collection<i class="bi bi-chevron-right"></i></span>
+                                          <div class="submenu megamenu">
+                                               <div class="container">
+                                                   <div class="row">
+                                                       <div class="col-lg-9">
+                                                           <div class="row">
+                                                               <div class="col-lg-4">
+                                                                   <h4 class="submenu-title">Collections by Celebrations</h4>
+                                                                   <ul class="submenu-list">
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Christmas</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Anniversary</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Engagement</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Wedding</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">New Year</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Thanksgiving</a></li>
+                                                                   </ul>
+                                                               </div>
+               
+                                                               <div class="col-lg-4">
+                                                                   <h4 class="submenu-title">Collections</h4>
+                                                                   <ul class="submenu-list">
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Friends Forever</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">For Her</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">For Him</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">For Daughter</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">For Son</a></li>
+                                                                       <li class="submenu-item"><a href="collection-combo.html" class="submenu-link text-theme-primary fw-semibold">View All</a></li>
+                                                                   </ul>
+                                                               </div>
+                                                               <div class="col-lg-4">
+                                                                   <h4 class="submenu-title">Collections by Price</h4>
+                                                                   <ul class="submenu-list">
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Under 15 AED</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Under 20 AED</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Under 25 AED</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Under 30 AED</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Under 50 AED</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">Under 100 AED</a></li>
+                                                                   </ul>
+                                                               </div>
+                                                           </div>
+                                                       </div>
+       
+       
+                                                       <div class="col-lg-3">
+                                                           <img src="images/home-page/menu-collection.jpg" class="img-fluid" alt="Collection Image">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                          </div>
+                                       </li>
+  
+                                       <li class="menu-item menu-dropdown">
+                                           <span class="menu-link">Cards<i class="bi bi-chevron-right"></i></span>
+                                           <div class="submenu megamenu">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-lg-9">
+                                                            <div class="row">
+                                                                <div class="col-lg-3">
+                                                                    <h4 class="submenu-title">Cards by Recipient</h4>
+                                                                    <ul class="submenu-list">
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">For Her</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">For Him</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">For Friends</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">For Couples</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Mom</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Dad</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Wife</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Husband</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Daughter</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Son</a></li>
+                                                                        <li class="submenu-item"><a href="cards.html" class="submenu-link text-theme-primary fw-semibold">View All</a></li>
+                                                                    </ul>
+                                                                </div>
+                
+                                                                <div class="col-lg-3">
+                                                                    <h4 class="submenu-title">Cards by Celebrations</h4>
+                                                                    <ul class="submenu-list">
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Birthday</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Thankyou</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Valentines</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Congratulations</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Engagement</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Wedding Anniversary</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Graduation</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">New Home</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-3">
+                                                                    <h4 class="submenu-title">Cards Styles</h4>
+                                                                    <ul class="submenu-list">
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Customise Your Card</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Gift Cards</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">New Baby</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Grad</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">eCards</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Kids Special</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Posts Cards</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Photo</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Photo Collage</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Funny</a></li>
+                                                                        <li class="submenu-item"><a href="#" class="submenu-link">Trending</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-lg-3">
+                                                                   <h4 class="submenu-title">Birthday Cards by Age</h4>
+                                                                   <ul class="submenu-list">
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">1st Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">5th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">10th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">18th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">21st Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">30th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">40th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">50th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">60th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">70th Birthday</a></li>
+                                                                       <li class="submenu-item"><a href="#" class="submenu-link">All Ages</a></li>
+                                                                   </ul>
+                                                               </div>
+                                                            </div>
+                                                        </div>
+        
+                                                        <div class="col-lg-3">
+                                                            <img src="images/home-page/menu-cards.jpg" class="img-fluid" alt="Cards Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                           </div>
+                                       </li>
+  
+                                       <li class="menu-item"><a href="cards.html" class="menu-link">Create Your Own Cards</a></li>
+                                       <li class="menu-item"><a href="#" class="menu-link">Flowers</a></li>
+                                       <li class="menu-item"><a href="#" class="menu-link">Chocolates</a></li>
+
+                                        <li class="menu-item d-lg-none"><a href="account.html" class="menu-link">Account</a></li>
+                                        <li class="menu-item d-lg-none"><a href="reminders.html" class="menu-link">Reminders</a></li>
+                                        <li class="menu-item d-lg-none"><a href="notification.html" class="menu-link">Notification</a></li>
+                                    </ul>
+                                 </div>
+                              </section>
+                          </nav>
+                      </div>
+                  </div>
+
+                  <div class="col-xl-auto col-6 order-1 order-xl-0 text-center text-xl-start">
+                      <a class="navbar-brand me-xl-4 me-0" href="index.html">
+                          <img src="images/logo.svg" height="64" alt="logo">
+                      </a>
+                  </div>
+
+                  <div class="col-3 order-2">
+                      <div class="nav-quick-links position-relative d-lg-flex d-none">
+                          <div class="responsive-search">
+                              <div class="input-box">
+                                <input type="text" placeholder="Quick Search">
+                                <span class="search">
+                                  <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                      <path d="M11.5 22.25C5.85 22.25 1.25 17.65 1.25 12C1.25 6.35 5.85 1.75 11.5 1.75C17.15 1.75 21.75 6.35 21.75 12C21.75 17.65 17.15 22.25 11.5 22.25ZM11.5 3.25C6.67 3.25 2.75 7.18 2.75 12C2.75 16.82 6.67 20.75 11.5 20.75C16.33 20.75 20.25 16.82 20.25 12C20.25 7.18 16.33 3.25 11.5 3.25Z" fill="#292D32"/>
+                                      <path d="M21.9999 23.2499C21.8099 23.2499 21.6199 23.1799 21.4699 23.0299L19.4699 21.0299C19.1799 20.7399 19.1799 20.2599 19.4699 19.9699C19.7599 19.6799 20.2399 19.6799 20.5299 19.9699L22.5299 21.9699C22.8199 22.2599 22.8199 22.7399 22.5299 23.0299C22.3799 23.1799 22.1899 23.2499 21.9999 23.2499Z" fill="#292D32"/>
+                                      </svg>                                    
+                                </span>
+                                <i class="close-icon"><svg height="16" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg" id="fi_1828778">
+                                    <path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0">
+                                    </path>
+                                  </svg></i>
+                              </div>
+                          </div>
+                          <a href="account.html">
+                              <svg width="22" height="22" class="mb-1" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <g clip-path="url(#clip0_219_1212)">
+                                  <path d="M19.25 21.9999H17.4167V17.3772C17.4159 16.6585 17.1301 15.9695 16.622 15.4613C16.1138 14.9531 15.4248 14.6673 14.7061 14.6666H7.29392C6.57525 14.6673 5.88622 14.9531 5.37805 15.4613C4.86987 15.9695 4.58406 16.6585 4.58333 17.3772V21.9999H2.75V17.3772C2.75146 16.1725 3.23066 15.0176 4.08249 14.1657C4.93432 13.3139 6.08924 12.8347 7.29392 12.8333H14.7061C15.9108 12.8347 17.0657 13.3139 17.9175 14.1657C18.7693 15.0176 19.2485 16.1725 19.25 17.3772V21.9999Z" fill="currentColor"/>
+                                  <path d="M11 11C9.91221 11 8.84884 10.6774 7.94437 10.0731C7.0399 9.46874 6.33495 8.60976 5.91867 7.60476C5.50238 6.59977 5.39346 5.4939 5.60568 4.42701C5.8179 3.36011 6.34173 2.3801 7.11092 1.61092C7.8801 0.841726 8.86011 0.317902 9.92701 0.105683C10.9939 -0.106535 12.0998 0.00238307 13.1048 0.418665C14.1098 0.834947 14.9687 1.5399 15.5731 2.44437C16.1774 3.34884 16.5 4.41221 16.5 5.5C16.4985 6.95825 15.9186 8.35635 14.8875 9.38748C13.8563 10.4186 12.4582 10.9985 11 11ZM11 1.83334C10.2748 1.83334 9.56589 2.04838 8.96291 2.45128C8.35993 2.85418 7.88997 3.42683 7.61244 4.09683C7.33492 4.76683 7.26231 5.50407 7.40379 6.21533C7.54527 6.9266 7.89448 7.57994 8.40728 8.09273C8.92007 8.60552 9.57341 8.95474 10.2847 9.09622C10.9959 9.23769 11.7332 9.16508 12.4032 8.88756C13.0732 8.61004 13.6458 8.14007 14.0487 7.53709C14.4516 6.93411 14.6667 6.2252 14.6667 5.5C14.6667 4.52754 14.2804 3.59491 13.5927 2.90728C12.9051 2.21964 11.9725 1.83334 11 1.83334Z" fill="currentColor"/>
+                                  </g>
+                                  <defs>
+                                  <clipPath id="clip0_219_1212">
+                                  <rect width="22" height="22" fill="white"/>
+                                  </clipPath>
+                                  </defs>
+                              </svg>
+                          </a>
+                          <a href="reminders.html">
+                              <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M7.83337 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M15.1666 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M3.70837 8.33252H19.2917" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M19.75 7.79159V15.5833C19.75 18.3333 18.375 20.1666 15.1667 20.1666H7.83333C4.625 20.1666 3.25 18.3333 3.25 15.5833V7.79159C3.25 5.04159 4.625 3.20825 7.83333 3.20825H15.1667C18.375 3.20825 19.75 5.04159 19.75 7.79159Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M14.8868 12.5582H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M14.8868 15.3082H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M11.4959 12.5582H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M11.4959 15.3082H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8.10308 12.5582H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M8.10308 15.3082H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </a>
+                          <a href="notification.html">
+                              <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M11.5 9.64381C11.1242 9.64381 10.8125 9.33214 10.8125 8.95631V5.90381C10.8125 5.52798 11.1242 5.21631 11.5 5.21631C11.8758 5.21631 12.1875 5.52798 12.1875 5.90381V8.95631C12.1875 9.34131 11.8758 9.64381 11.5 9.64381Z" fill="currentColor"/>
+                                  <path d="M11.5178 18.6542C9.15281 18.6542 6.79697 18.2784 4.55114 17.5267C3.71697 17.2517 3.08447 16.6559 2.80947 15.9042C2.53447 15.1526 2.62614 14.2909 3.0753 13.5392L4.23947 11.5959C4.49614 11.1651 4.7253 10.3584 4.7253 9.85422V7.92922C4.7253 4.18005 7.76864 1.13672 11.5178 1.13672C15.267 1.13672 18.3103 4.18005 18.3103 7.92922V9.85422C18.3103 10.3492 18.5395 11.1651 18.7961 11.5959L19.9603 13.5392C20.3911 14.2542 20.4645 15.1067 20.1803 15.8859C19.8961 16.6651 19.2728 17.2609 18.4845 17.5267C16.2386 18.2876 13.8828 18.6542 11.5178 18.6542ZM11.5178 2.52089C8.52947 2.52089 6.1003 4.95005 6.1003 7.93839V9.86339C6.1003 10.6059 5.80697 11.6784 5.42197 12.3109L4.2578 14.2634C4.01947 14.6576 3.96447 15.0792 4.10197 15.4459C4.23947 15.8126 4.55114 16.0876 4.99114 16.2342C9.2078 17.6367 13.8461 17.6367 18.0628 16.2342C18.457 16.1059 18.7595 15.8126 18.897 15.4276C19.0436 15.0426 18.9978 14.6209 18.787 14.2634L17.6228 12.3201C17.2378 11.6876 16.9445 10.6151 16.9445 9.87255V7.94755C16.9353 4.95005 14.5061 2.52089 11.5178 2.52089Z" fill="currentColor"/>
+                                  <path d="M11.4998 20.992C10.5189 20.992 9.55643 20.5886 8.85977 19.892C8.1631 19.1953 7.75977 18.2328 7.75977 17.252H9.13477C9.13477 17.8753 9.39143 18.4803 9.83143 18.9203C10.2714 19.3603 10.8764 19.617 11.4998 19.617C12.8014 19.617 13.8648 18.5536 13.8648 17.252H15.2398C15.2398 19.3145 13.5623 20.992 11.4998 20.992Z" fill="currentColor"/>
+                              </svg>
+                          </a>
+                          <a href="cart.html">
+                              <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M8.20002 5.95825H14.8C17.9167 5.95825 18.2284 7.41575 18.4392 9.19408L19.2642 16.0691C19.53 18.3241 18.8334 20.1666 15.625 20.1666H7.38419C4.16669 20.1666 3.47002 18.3241 3.74502 16.0691L4.57003 9.19408C4.7717 7.41575 5.08336 5.95825 8.20002 5.95825Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M7.83337 7.33325V4.12492C7.83337 2.74992 8.75004 1.83325 10.125 1.83325H12.875C14.25 1.83325 15.1667 2.74992 15.1667 4.12492V7.33325" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </a>
+                      </div>
+
+                      <div class="nav-quick-links position-relative d-lg-none p-0">
+                          <a href="cart.html">
+                              <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M8.20002 5.95825H14.8C17.9167 5.95825 18.2284 7.41575 18.4392 9.19408L19.2642 16.0691C19.53 18.3241 18.8334 20.1666 15.625 20.1666H7.38419C4.16669 20.1666 3.47002 18.3241 3.74502 16.0691L4.57003 9.19408C4.7717 7.41575 5.08336 5.95825 8.20002 5.95825Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  <path d="M7.83337 7.33325V4.12492C7.83337 2.74992 8.75004 1.83325 10.125 1.83325H12.875C14.25 1.83325 15.1667 2.74992 15.1667 4.12492V7.33325" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Mobile Icons -->
+          <div class="container mt-2 justify-content-between d-lg-none">
+              <div class="nav-quick-links position-relative justify-content-start d-none">
+                  <div class="responsive-search">
+                      <div class="input-box">
+                        <input type="text" placeholder="Quick Search">
+                        <span class="search">
+                          <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M11.5 22.25C5.85 22.25 1.25 17.65 1.25 12C1.25 6.35 5.85 1.75 11.5 1.75C17.15 1.75 21.75 6.35 21.75 12C21.75 17.65 17.15 22.25 11.5 22.25ZM11.5 3.25C6.67 3.25 2.75 7.18 2.75 12C2.75 16.82 6.67 20.75 11.5 20.75C16.33 20.75 20.25 16.82 20.25 12C20.25 7.18 16.33 3.25 11.5 3.25Z" fill="#292D32"/>
+                              <path d="M21.9999 23.2499C21.8099 23.2499 21.6199 23.1799 21.4699 23.0299L19.4699 21.0299C19.1799 20.7399 19.1799 20.2599 19.4699 19.9699C19.7599 19.6799 20.2399 19.6799 20.5299 19.9699L22.5299 21.9699C22.8199 22.2599 22.8199 22.7399 22.5299 23.0299C22.3799 23.1799 22.1899 23.2499 21.9999 23.2499Z" fill="#292D32"/>
+                              </svg>                                    
+                        </span>
+                        <i class="close-icon"><svg height="16" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg" id="fi_1828778">
+                            <path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0">
+                            </path>
+                          </svg></i>
+                      </div>
+                  </div>
+                  <a href="account.html">
+                      <svg width="22" height="22" class="mb-1" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g clip-path="url(#clip0_219_1212)">
+                          <path d="M19.25 21.9999H17.4167V17.3772C17.4159 16.6585 17.1301 15.9695 16.622 15.4613C16.1138 14.9531 15.4248 14.6673 14.7061 14.6666H7.29392C6.57525 14.6673 5.88622 14.9531 5.37805 15.4613C4.86987 15.9695 4.58406 16.6585 4.58333 17.3772V21.9999H2.75V17.3772C2.75146 16.1725 3.23066 15.0176 4.08249 14.1657C4.93432 13.3139 6.08924 12.8347 7.29392 12.8333H14.7061C15.9108 12.8347 17.0657 13.3139 17.9175 14.1657C18.7693 15.0176 19.2485 16.1725 19.25 17.3772V21.9999Z" fill="currentColor"/>
+                          <path d="M11 11C9.91221 11 8.84884 10.6774 7.94437 10.0731C7.0399 9.46874 6.33495 8.60976 5.91867 7.60476C5.50238 6.59977 5.39346 5.4939 5.60568 4.42701C5.8179 3.36011 6.34173 2.3801 7.11092 1.61092C7.8801 0.841726 8.86011 0.317902 9.92701 0.105683C10.9939 -0.106535 12.0998 0.00238307 13.1048 0.418665C14.1098 0.834947 14.9687 1.5399 15.5731 2.44437C16.1774 3.34884 16.5 4.41221 16.5 5.5C16.4985 6.95825 15.9186 8.35635 14.8875 9.38748C13.8563 10.4186 12.4582 10.9985 11 11ZM11 1.83334C10.2748 1.83334 9.56589 2.04838 8.96291 2.45128C8.35993 2.85418 7.88997 3.42683 7.61244 4.09683C7.33492 4.76683 7.26231 5.50407 7.40379 6.21533C7.54527 6.9266 7.89448 7.57994 8.40728 8.09273C8.92007 8.60552 9.57341 8.95474 10.2847 9.09622C10.9959 9.23769 11.7332 9.16508 12.4032 8.88756C13.0732 8.61004 13.6458 8.14007 14.0487 7.53709C14.4516 6.93411 14.6667 6.2252 14.6667 5.5C14.6667 4.52754 14.2804 3.59491 13.5927 2.90728C12.9051 2.21964 11.9725 1.83334 11 1.83334Z" fill="currentColor"/>
+                          </g>
+                          <defs>
+                          <clipPath id="clip0_219_1212">
+                          <rect width="22" height="22" fill="white"/>
+                          </clipPath>
+                          </defs>
+                      </svg>
+                  </a>
+                  <a href="reminders.html">
+                      <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.83337 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M15.1666 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M3.70837 8.33252H19.2917" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M19.75 7.79159V15.5833C19.75 18.3333 18.375 20.1666 15.1667 20.1666H7.83333C4.625 20.1666 3.25 18.3333 3.25 15.5833V7.79159C3.25 5.04159 4.625 3.20825 7.83333 3.20825H15.1667C18.375 3.20825 19.75 5.04159 19.75 7.79159Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M14.8868 12.5582H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M14.8868 15.3082H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M11.4959 12.5582H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M11.4959 15.3082H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M8.10308 12.5582H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M8.10308 15.3082H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </a>
+                  <a href="notification.html">
+                      <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11.5 9.64381C11.1242 9.64381 10.8125 9.33214 10.8125 8.95631V5.90381C10.8125 5.52798 11.1242 5.21631 11.5 5.21631C11.8758 5.21631 12.1875 5.52798 12.1875 5.90381V8.95631C12.1875 9.34131 11.8758 9.64381 11.5 9.64381Z" fill="currentColor"/>
+                          <path d="M11.5178 18.6542C9.15281 18.6542 6.79697 18.2784 4.55114 17.5267C3.71697 17.2517 3.08447 16.6559 2.80947 15.9042C2.53447 15.1526 2.62614 14.2909 3.0753 13.5392L4.23947 11.5959C4.49614 11.1651 4.7253 10.3584 4.7253 9.85422V7.92922C4.7253 4.18005 7.76864 1.13672 11.5178 1.13672C15.267 1.13672 18.3103 4.18005 18.3103 7.92922V9.85422C18.3103 10.3492 18.5395 11.1651 18.7961 11.5959L19.9603 13.5392C20.3911 14.2542 20.4645 15.1067 20.1803 15.8859C19.8961 16.6651 19.2728 17.2609 18.4845 17.5267C16.2386 18.2876 13.8828 18.6542 11.5178 18.6542ZM11.5178 2.52089C8.52947 2.52089 6.1003 4.95005 6.1003 7.93839V9.86339C6.1003 10.6059 5.80697 11.6784 5.42197 12.3109L4.2578 14.2634C4.01947 14.6576 3.96447 15.0792 4.10197 15.4459C4.23947 15.8126 4.55114 16.0876 4.99114 16.2342C9.2078 17.6367 13.8461 17.6367 18.0628 16.2342C18.457 16.1059 18.7595 15.8126 18.897 15.4276C19.0436 15.0426 18.9978 14.6209 18.787 14.2634L17.6228 12.3201C17.2378 11.6876 16.9445 10.6151 16.9445 9.87255V7.94755C16.9353 4.95005 14.5061 2.52089 11.5178 2.52089Z" fill="currentColor"/>
+                          <path d="M11.4998 20.992C10.5189 20.992 9.55643 20.5886 8.85977 19.892C8.1631 19.1953 7.75977 18.2328 7.75977 17.252H9.13477C9.13477 17.8753 9.39143 18.4803 9.83143 18.9203C10.2714 19.3603 10.8764 19.617 11.4998 19.617C12.8014 19.617 13.8648 18.5536 13.8648 17.252H15.2398C15.2398 19.3145 13.5623 20.992 11.4998 20.992Z" fill="currentColor"/>
+                      </svg>
+                  </a>
+                  <a href="cart.html">
+                      <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8.20002 5.95825H14.8C17.9167 5.95825 18.2284 7.41575 18.4392 9.19408L19.2642 16.0691C19.53 18.3241 18.8334 20.1666 15.625 20.1666H7.38419C4.16669 20.1666 3.47002 18.3241 3.74502 16.0691L4.57003 9.19408C4.7717 7.41575 5.08336 5.95825 8.20002 5.95825Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M7.83337 7.33325V4.12492C7.83337 2.74992 8.75004 1.83325 10.125 1.83325H12.875C14.25 1.83325 15.1667 2.74992 15.1667 4.12492V7.33325" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                  </a>
+              </div>
+
+              <form class="d-flex header-search" role="search">
+                  <div class="input-group mt-2 mb-0 d-md-flex">
+                      <input type="text" class="form-control border-end-0 pe-0" id="headerSearch" placeholder="Search here.."  aria-describedby="headerSearch">
+                      <label class="input-group-text bg-white cursor-pointer" for="headerSearch"><img src="images/icon-search.svg" alt="icon"></label>
+                  </div>
+              </form>
+
+          </div>
+      </nav>
+      
+    </header>
+    <!--======================================== Header Section ========================================-->
+    
+
+    <!--======================================== Main Section ========================================-->
+    <main>
+        <!--======================================== Personalise Section ========================================-->
+        <div class="personalise-section d-flex">
+            <div class="container section-title">
+                <div class="row h-100">
+                    <div class="col-lg-5">
+                        <div class="left-section h-100">
+                            <div class="card h-100">
+                                <div class="upload-file d-flex flex-column h-100 left-inner left-first">
+                                    <h5 class="mb-20">Upload Photos.</h5>
+                                    <div class="drop-zone mb-30">
+                                      <div class="d-flex flex-column align-items-center drop-zone__prompt">
+                                        <img src="images/icon-upload.svg" class="mb-3" alt="icon">
+                                        <h5 class="mb-0">Upload Photos.</h5>
+                                      </div>
+                                      <input type="file" name="myFile" class="drop-zone__input">
+                                    </div>
+                                    <hr class="mb-30">
+                                    <h5 class="mb-20">Adjust Photo</h5>
+                                    <div class="custom-range-slider">
+                                      <label>Size</label>
+                                      <div class="range">  
+                                        <input type="range"/>
+                                      </div>
+                                    </div>
+                                    <div class="mt-auto">
+                                      <a href="card-personalise-preview.html" class="btn btn-primary rounded-3 d-inline-block"><img src="images/icon-check.svg" class="me-2" alt="icon"> Done</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="customize-option d-flex flex-column h-100 left-inner left-second d-none">
+                                  <h5 class="mb-20">Customize Options</h5>
+                                  
+                                  <ul class="nav nav-pills mb-3" id="customize-options-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link active" id="customize-options-layout-tab" data-bs-toggle="pill" data-bs-target="#customize-options-layout" type="button" role="tab" aria-controls="customize-options-layout" aria-selected="true">
+                                        <div class="customize-options-icon">
+                                          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.4444 1.8002C2.53619 1.8002 1.79995 2.53644 1.79995 3.44464V20.5557C1.79995 21.464 2.53619 22.2002 3.4444 22.2002H20.5555C21.4637 22.2002 22.1999 21.464 22.1999 20.5557V3.44464C22.1999 2.53644 21.4637 1.8002 20.5555 1.8002H3.4444ZM0.199951 3.44464C0.199951 1.65278 1.65254 0.200195 3.4444 0.200195H20.5555C22.3474 0.200195 23.7999 1.65278 23.7999 3.44464V20.5557C23.7999 22.3476 22.3474 23.8002 20.5555 23.8002H3.4444C1.65254 23.8002 0.199951 22.3476 0.199951 20.5557V3.44464Z"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.199951 8.3332C0.199951 7.89138 0.558123 7.5332 0.999951 7.5332H23C23.4418 7.5332 23.7999 7.89138 23.7999 8.3332C23.7999 8.77503 23.4418 9.1332 23 9.1332H9.13328V22.9999C9.13328 23.4417 8.77511 23.7999 8.33328 23.7999C7.89146 23.7999 7.53328 23.4417 7.53328 22.9999V9.1332H0.999951C0.558123 9.1332 0.199951 8.77503 0.199951 8.3332Z"/>
+                                          </svg>                                          
+                                        </div>
+                                        Layout
+                                      </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="customize-options-text-tab" data-bs-toggle="pill" data-bs-target="#customize-options-text" type="button" role="tab" aria-controls="customize-options-text" aria-selected="false">
+                                        <div class="customize-options-icon">
+                                          <svg width="29" height="28" viewBox="0 0 29 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M22.5 3.5H6.5C5.11929 3.5 4 4.61929 4 6V22C4 23.3807 5.11929 24.5 6.5 24.5H22.5C23.8807 24.5 25 23.3807 25 22V6C25 4.61929 23.8807 3.5 22.5 3.5ZM6.5 2C4.29086 2 2.5 3.79086 2.5 6V22C2.5 24.2091 4.29086 26 6.5 26H22.5C24.7091 26 26.5 24.2091 26.5 22V6C26.5 3.79086 24.7091 2 22.5 2H6.5Z"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.3 19.5998H16.9C17.3416 19.5998 17.7 19.9582 17.7 20.3998C17.7 20.8414 17.3416 21.1998 16.9 21.1998H12.1C11.6584 21.1998 11.3 20.8414 11.3 20.3998C11.3 19.9582 11.6584 19.5998 12.1 19.5998H13.7V8.3998H8.90005V9.9998C8.90005 10.4414 8.54165 10.7998 8.10005 10.7998C7.65845 10.7998 7.30005 10.4414 7.30005 9.9998V7.5998C7.30005 7.1582 7.65845 6.7998 8.10005 6.7998H20.9C21.3416 6.7998 21.7 7.1582 21.7 7.5998V9.9998C21.7 10.4414 21.3416 10.7998 20.9 10.7998C20.4584 10.7998 20.1 10.4414 20.1 9.9998V8.3998H15.3V19.5998Z"/>
+                                          </svg>                                            
+                                        </div>
+                                        Text
+                                      </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="customize-options-photos-tab" data-bs-toggle="pill" data-bs-target="#customize-options-photos" type="button" role="tab" aria-controls="customize-options-photos" aria-selected="false">
+                                        <div class="customize-options-icon">
+                                          <svg width="29" height="28" viewBox="0 0 29 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.9999 26.5413H10.9999C4.66492 26.5413 1.95825 23.8347 1.95825 17.4997V10.4997C1.95825 4.16467 4.66492 1.45801 10.9999 1.45801H17.9999C24.3349 1.45801 27.0416 4.16467 27.0416 10.4997V17.4997C27.0416 23.8347 24.3349 26.5413 17.9999 26.5413ZM10.9999 3.20801C5.62159 3.20801 3.70825 5.12134 3.70825 10.4997V17.4997C3.70825 22.878 5.62159 24.7913 10.9999 24.7913H17.9999C23.3783 24.7913 25.2916 22.878 25.2916 17.4997V10.4997C25.2916 5.12134 23.3783 3.20801 17.9999 3.20801H10.9999Z"/>
+                                            <path d="M11.0001 12.5417C9.22675 12.5417 7.79175 11.1067 7.79175 9.33333C7.79175 7.56 9.22675 6.125 11.0001 6.125C12.7734 6.125 14.2084 7.56 14.2084 9.33333C14.2084 11.1067 12.7734 12.5417 11.0001 12.5417ZM11.0001 7.875C10.1951 7.875 9.54175 8.52833 9.54175 9.33333C9.54175 10.1383 10.1951 10.7917 11.0001 10.7917C11.8051 10.7917 12.4584 10.1383 12.4584 9.33333C12.4584 8.52833 11.8051 7.875 11.0001 7.875Z"/>
+                                            <path d="M3.61482 22.9833C3.33482 22.9833 3.05482 22.8433 2.89148 22.5983C2.62315 22.2017 2.72815 21.6533 3.13648 21.385L8.88815 17.5233C10.1481 16.6717 11.8865 16.7767 13.0298 17.745L13.4148 18.0833C13.9981 18.585 14.9898 18.585 15.5615 18.0833L20.4148 13.9183C21.6515 12.8567 23.5998 12.8567 24.8481 13.9183L26.7498 15.5517C27.1115 15.8667 27.1581 16.415 26.8431 16.7883C26.5281 17.15 25.9798 17.1967 25.6065 16.8817L23.7048 15.2483C23.1215 14.7467 22.1298 14.7467 21.5465 15.2483L16.6931 19.4133C15.4565 20.475 13.5081 20.475 12.2598 19.4133L11.8748 19.075C11.3381 18.62 10.4515 18.5733 9.85648 18.9817L4.10482 22.8433C3.95315 22.9367 3.77815 22.9833 3.61482 22.9833Z"/>
+                                          </svg>                                            
+                                        </div>
+                                        Photos
+                                      </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="customize-options-stickers-tab" data-bs-toggle="pill" data-bs-target="#customize-options-stickers" type="button" role="tab" aria-controls="customize-options-stickers" aria-selected="false">
+                                        <div class="customize-options-icon">
+                                          <svg width="29" height="28" viewBox="0 0 29 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M26.8002 15.0002C26.8002 15.0862 26.7864 15.1717 26.7592 15.2532C26.4957 16.043 25.9142 17.0289 25.1268 18.0879C24.3416 19.1438 23.3608 20.2605 22.3106 21.3106C21.2605 22.3608 20.1438 23.3416 19.0879 24.1268C18.0289 24.9142 17.043 25.4957 16.2532 25.7592C16.1717 25.7864 16.0862 25.8002 16.0002 25.8002H10.0004C8.19747 25.7983 6.46893 25.0812 5.19406 23.8063C3.91922 22.5315 3.20215 20.803 3.2002 19.0001V9.0003C3.20215 7.1974 3.91922 5.46891 5.19406 4.19406C6.46891 2.91922 8.1974 2.20215 10.0003 2.2002H20.0001C21.803 2.20215 23.5315 2.91922 24.8063 4.19406C26.0812 5.46893 26.7983 7.19747 26.8002 9.00041V15.0002ZM22.0004 14.2002H25.2002V9.0002C25.2002 7.62107 24.6523 6.29843 23.6772 5.32324C22.702 4.34805 21.3793 3.8002 20.0002 3.8002H10.0002C8.62107 3.8002 7.29843 4.34805 6.32324 5.32324C5.34805 6.29843 4.8002 7.62107 4.8002 9.0002V19.0002C4.8002 20.3793 5.34805 21.702 6.32324 22.6772C7.29843 23.6523 8.62107 24.2002 10.0002 24.2002H15.2002V21.0004C15.2021 19.1975 15.9192 17.4689 17.1941 16.1941C18.4689 14.9192 20.1975 14.2021 22.0004 14.2002ZM16.8002 21.0002V23.7528L17.1059 23.5625C18.3424 22.7927 19.8232 21.5425 21.1829 20.1829C22.5425 18.8232 23.7927 17.3424 24.5625 16.1059L24.7528 15.8002H22.0002C20.6211 15.8002 19.2984 16.3481 18.3232 17.3232C17.3481 18.2984 16.8002 19.6211 16.8002 21.0002Z"/>
+                                          </svg>                                            
+                                        </div>
+                                        Stickers
+                                      </button>
+                                    </li>
+
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="customize-options-video-tab" data-bs-toggle="pill" data-bs-target="#customize-options-video" type="button" role="tab" aria-controls="customize-options-video" aria-selected="false">
+                                        <div class="customize-options-icon">
+                                          <svg width="29" height="28" viewBox="0 0 29 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.0417 26.0833H11.0417C4.70667 26.0833 2 23.3767 2 17.0417V10.0417C2 3.70667 4.70667 1 11.0417 1H18.0417C24.3767 1 27.0833 3.70667 27.0833 10.0417V17.0417C27.0833 23.3767 24.3767 26.0833 18.0417 26.0833ZM11.0417 2.75C5.66333 2.75 3.75 4.66333 3.75 10.0417V17.0417C3.75 22.42 5.66333 24.3333 11.0417 24.3333H18.0417C23.42 24.3333 25.3333 22.42 25.3333 17.0417V10.0417C25.3333 4.66333 23.42 2.75 18.0417 2.75H11.0417Z"/>
+                                            <path d="M13.0948 18.6403C12.6048 18.6403 12.1498 18.5237 11.7415 18.2903C10.8082 17.7537 10.2715 16.657 10.2715 15.2687V11.8153C10.2715 10.4387 10.8082 9.33034 11.7415 8.79368C12.6748 8.25701 13.8882 8.33868 15.0898 9.03868L18.0882 10.7653C19.2782 11.4537 19.9665 12.4687 19.9665 13.542C19.9665 14.6153 19.2782 15.6303 18.0882 16.3187L15.0898 18.0453C14.4132 18.442 13.7248 18.6403 13.0948 18.6403ZM13.1065 10.1937C12.9198 10.1937 12.7565 10.2287 12.6282 10.3103C12.2548 10.532 12.0332 11.0803 12.0332 11.8153V15.2687C12.0332 16.0037 12.2432 16.552 12.6282 16.7737C13.0015 16.9953 13.5848 16.902 14.2265 16.5287L17.2248 14.802C17.8665 14.4287 18.2282 13.9737 18.2282 13.542C18.2282 13.1103 17.8665 12.6437 17.2248 12.282L14.2265 10.5553C13.8065 10.3103 13.4215 10.1937 13.1065 10.1937Z"/>
+                                          </svg>
+                                        </div>
+                                        Video
+                                      </button>
+                                    </li>
+
+                                    <li class="nav-item" role="presentation">
+                                      <button class="nav-link" id="customize-options-audio-tab" data-bs-toggle="pill" data-bs-target="#customize-options-audio" type="button" role="tab" aria-controls="customize-options-audio" aria-selected="false">
+                                        <div class="customize-options-icon">
+                                          <svg width="29" height="28" viewBox="0 0 29 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.6931 24.0214C15.7714 24.0214 14.7564 23.6947 13.7414 23.053L10.3348 20.918C10.1014 20.778 9.8331 20.6964 9.56477 20.6964H7.88477C5.06143 20.6964 3.50977 19.1447 3.50977 16.3214V11.6547C3.50977 8.83138 5.06143 7.27972 7.88477 7.27972H9.5531C9.82143 7.27972 10.0898 7.19805 10.3231 7.05805L13.7298 4.92305C15.4331 3.86138 17.0898 3.66305 18.3964 4.38638C19.7031 5.10972 20.4148 6.61472 20.4148 8.63305V19.3314C20.4148 21.338 19.6914 22.8547 18.3964 23.578C17.8831 23.8814 17.3114 24.0214 16.6931 24.0214ZM7.88477 9.04138C6.04143 9.04138 5.25977 9.82305 5.25977 11.6664V16.333C5.25977 18.1764 6.04143 18.958 7.88477 18.958H9.5531C10.1598 18.958 10.7431 19.1214 11.2564 19.448L14.6631 21.583C15.7948 22.283 16.8448 22.4697 17.5564 22.073C18.2681 21.6764 18.6764 20.6847 18.6764 19.3664V8.64472C18.6764 7.31472 18.2681 6.32305 17.5564 5.93805C16.8448 5.54138 15.7948 5.71638 14.6631 6.42805L11.2564 8.55138C10.7431 8.87805 10.1598 9.04138 9.5531 9.04138H7.88477Z"/>
+                                            <path d="M23.0516 19.5417C22.8649 19.5417 22.6899 19.4833 22.5266 19.3667C22.1416 19.075 22.0599 18.5267 22.3516 18.1417C24.1833 15.7033 24.1833 12.2967 22.3516 9.85833C22.0599 9.47333 22.1416 8.92499 22.5266 8.63333C22.9116 8.34166 23.4599 8.42333 23.7516 8.80833C26.0499 11.865 26.0499 16.135 23.7516 19.1917C23.5883 19.425 23.3199 19.5417 23.0516 19.5417Z"/>
+                                          </svg>                                            
+                                        </div>
+                                        Audio
+                                      </button>
+                                    </li>
+                                  </ul>
+
+                                  <hr class="mb-30">
+
+                                  <div class="tab-content" id="customize-options-tabContent">
+                                    <div class="tab-pane fade show active" id="customize-options-layout" role="tabpanel" aria-labelledby="customize-options-layout-tab">Layout</div>
+                                    <div class="tab-pane fade" id="customize-options-text" role="tabpanel" aria-labelledby="customize-options-text-tab">Text</div>
+                                    <div class="tab-pane fade" id="customize-options-photos" role="tabpanel" aria-labelledby="customize-options-photos-tab">Photos</div>
+                                    <div class="tab-pane fade" id="customize-options-stickers" role="tabpanel" aria-labelledby="customize-options-stickers-tab">Stickers</div>
+                                    <div class="tab-pane fade" id="customize-options-video" role="tabpanel" aria-labelledby="customize-options-video-tab">Video</div>
+                                    <div class="tab-pane fade" id="customize-options-audio" role="tabpanel" aria-labelledby="customize-options-audio-tab">Audio</div>
+                                  </div>                          
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 ms-auto d-flex align-items-center flex-column justify-content-between mt-4 mt-lg-0">
+                      <div class="right-section">
+                        <div class="card h-100 border-0">
+                          <div class="card-detail h-100">
+                            <div class="right-inner right-first">
+                              <img src="images/personalise-first-card.png" class="img-fluid" alt="card">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                        <div class="change-card-inner-page d-flex">
+                          <div class="card mt-3">
+                            <div class="card-body d-flex flex-sm-nowrap flex-wrap justify-content-center align-items-center">
+                              <div class="change-page-btn active front rounded">
+                                <svg width="20" height="25" class="me-2" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <rect x="0.75" y="0.75" width="18.5" height="23.5" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                <span>Front</span>
+                              </div>
+                              <div class="d-flex">
+                                <div class="change-page-btn inside-left border-end-0 rounded-start">
+                                  <svg width="20" height="25" class="me-2" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.75" y="0.75" width="18.5" height="23.5" stroke="currentColor" stroke-width="1.5"/>
+                                  </svg>
+                                  <span>Inside Left</span>
+                                </div>
+                                <div class="change-page-btn inside-right rounded-end">
+                                  <svg width="20" height="25" class="me-2" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.75" y="0.75" width="18.5" height="23.5" stroke="currentColor" stroke-width="1.5"/>
+                                  </svg>
+                                  <span>Inside Right</span>
+                                </div>
+                              </div>
+                              <div class="change-page-btn back rounded">
+                                <svg width="20" height="25" class="me-2" viewBox="0 0 20 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <rect x="0.75" y="0.75" width="18.5" height="23.5" stroke="currentColor" stroke-width="1.5"/>
+                                </svg>
+                                <span>Back</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--======================================== Personalise Section ========================================-->
+    </main>
+    <!--======================================== Main Section ========================================-->
+    
+    <!--======================================== JS Links ========================================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!--======================================== JS Links ========================================-->
+
+    <!-- Upload File Script -->
+    <script>
+      document.querySelectorAll(".drop-zone__input").forEach((inputElement) => {
+        const dropZoneElement = inputElement.closest(".drop-zone");
+
+        dropZoneElement.addEventListener("click", (e) => {
+          inputElement.click();
+        });
+
+        inputElement.addEventListener("change", (e) => {
+          if (inputElement.files.length) {
+            updateThumbnail(dropZoneElement, inputElement.files[0]);
+          }
+        });
+
+        dropZoneElement.addEventListener("dragover", (e) => {
+          e.preventDefault();
+          dropZoneElement.classList.add("drop-zone--over");
+        });
+
+        ["dragleave", "dragend"].forEach((type) => {
+          dropZoneElement.addEventListener(type, (e) => {
+            dropZoneElement.classList.remove("drop-zone--over");
+          });
+        });
+
+        dropZoneElement.addEventListener("drop", (e) => {
+          e.preventDefault();
+
+          if (e.dataTransfer.files.length) {
+            inputElement.files = e.dataTransfer.files;
+            updateThumbnail(dropZoneElement, e.dataTransfer.files[0]);
+          }
+
+          dropZoneElement.classList.remove("drop-zone--over");
+        });
+      });
+
+      function updateThumbnail(dropZoneElement, file) {
+        let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
+
+        // First time - remove the prompt
+        if (dropZoneElement.querySelector(".drop-zone__prompt")) {
+          dropZoneElement.querySelector(".drop-zone__prompt").remove();
+        }
+
+        // First time - there is no thumbnail element, so lets create it
+        if (!thumbnailElement) {
+          thumbnailElement = document.createElement("div");
+          thumbnailElement.classList.add("drop-zone__thumb");
+          dropZoneElement.appendChild(thumbnailElement);
+        }
+
+        thumbnailElement.dataset.label = file.name;
+
+        // Show thumbnail for image files
+        if (file.type.startsWith("image/")) {
+          const reader = new FileReader();
+
+          reader.readAsDataURL(file);
+          reader.onload = () => {
+            thumbnailElement.style.backgroundImage = `url('${reader.result}')`;
+          };
+        } else {
+          thumbnailElement.style.backgroundImage = null;
+        }
+      }
+    </script>
+
+<script>
+  $(".change-card-inner-page .change-page-btn").click(function(){
+      $(".change-page-btn").removeClass("active");
+      $(this).addClass("active");
+  });
+  
+  $(".change-card-inner-page .front").click(function(){
+    $(".left-inner").addClass("d-none");
+    $(".right-inner").addClass("d-none");
+    $(".left-inner.left-first").removeClass("d-none");
+    $(".right-inner.right-first").removeClass("d-none");
+  });
+
+  $(".change-card-inner-page .inside-left").click(function(){
+    $(".left-inner").addClass("d-none");
+    $(".right-inner").addClass("d-none");
+    $(".left-inner.left-second").removeClass("d-none");
+    $(".right-inner.right-second").removeClass("d-none");
+  });
+</script>
+
+<script>
+  let inputBox = document.querySelector('.input-box'),
+      searchIcon = document.querySelector('.search'),
+      closeIcon = document.querySelector('.close-icon');
+
+  // ---- ---- Open Input ---- ---- //
+  searchIcon.addEventListener('click', () => {
+      inputBox.classList.add('open');
+  });
+  // ---- ---- Close Input ---- ---- //
+  closeIcon.addEventListener('click', () => {
+      inputBox.classList.remove('open');
+  });
+
+</script>
+
+<script src="js/responsive-menu.js"></script>
+
+</body>
+</html>

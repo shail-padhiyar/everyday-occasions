@@ -1,0 +1,358 @@
+@media (min-width: 992px) {
+    .position-md-unset{
+        position: unset;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .personalise-card-preivew-section{
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 1440px) {
+    .make-moment-special-section .left-section {
+        padding: 40px;
+    }
+    .navbar-brand img{
+        max-width: 150px;
+        height: auto;
+    }
+
+    /* .personalise-card-preivew-section .book-section>.container {
+        height: 100%;
+        width: 80%;
+        perspective: 1200px;
+    } */
+}
+
+@media (max-width: 1199px) {
+    .signig-section .card .card-body .other-way-for-signing{
+        flex-wrap: wrap;
+    }
+    .header-section .header-search {
+        max-width: 100%;
+        width: 100%;
+    }
+    .header-section .nav-quick-links{
+        gap: 30px;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    /* .responsive-header{
+        order: 0;
+    }
+    .nav-quick-links{
+        order: 2;
+    } */
+    .responsive-header .burger {
+        display: block !important;
+    }
+    .cards-slider-section .swiper-button-next,
+    .cards-slider-section .swiper-button-prev {
+        width: 25px;
+        height: 25px;
+    }
+    .cards-slider-section .swiper-button-next:after, 
+    .cards-slider-section .swiper-button-prev:after {
+        font-size: 0.6rem;
+    }
+
+    .cards-slider-section .swiper-button-prev{
+        left: -20px;
+    }
+    .cards-slider-section .swiper-button-next{
+        right: -20px;
+    }
+
+    .card-detail-main-section .preview-section {
+        padding: 50px 0;
+    }
+    .card-detail-main-section .main-slider{
+        width: 65%;
+    }
+}
+
+@media (max-width: 991px) {
+    .mb-20 {
+        margin-bottom: 15px !important;
+    }
+
+    .mb-30 {
+        margin-bottom: 23px !important;
+    }
+
+    .mb-40 {
+        margin-bottom: 30px !important;
+    }
+
+    .mb-50 {
+        margin-bottom: 38px !important;
+    }
+
+    .mb-80 {
+        margin-bottom: 60px !important;
+    }
+
+    /* .section-title h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .section-title h3 {
+        font-size: 22px;
+        line-height: 34px;
+    } */
+
+    .make-moment-special-section .left-section {
+        border-radius: 20px 20px 0px 0px;
+        padding: 40px;
+    }
+
+    .make-moment-special-section .right-section img {
+        width: 100%;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .navbar-collapse .navbar-nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 60px;
+        z-index: 20;
+        background-color: #FFF;
+        padding: 20px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 10px;
+        /* --bs-scroll-height: 200px !important; */
+        --bs-scroll-height: auto !important;
+    }
+
+    .navbar-collapse.collapsing {
+        transition: none;
+    }
+
+    .header-section .navbar-nav .nav-item:last-child .nav-link {
+        padding-bottom: 0;
+    }
+
+    .card-detail-main-section .sub-slider .swiper-slide img{
+        padding: 10px;
+    }
+    .make-moment-special-section .left-section:after{
+        display: none;
+    }
+
+    .cards-slider-section .swiper-button-prev,
+    .cards-slider-section .swiper-button-next{
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img{
+        max-width: 120px;
+        height: auto;
+    }
+    .contact-us-section .left-section,
+    .contact-us-section .right-section .card-body{ 
+        padding: 1.5rem;
+    }
+    .account-pages-section .order-history .card-header{
+        flex-direction: column;
+        gap: 20px;
+        padding: 1rem;
+    }
+    .account-pages-section .order-history .card-body{
+        padding: 1rem;
+    }
+
+    .card-detail-main-section .preview-section {
+        padding: 20px 0;
+    }
+    .card-detail-main-section .main-slider{
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .navbar-nav {
+        top: 60px;
+    }
+    .footer.space-bottom{
+        margin-bottom: 89px;
+    }
+
+    .hero-main{
+        min-height: 400px;
+    }
+    
+    .personalise-action-buttons .btn.btn-outline-primary,
+    .personalise-action-buttons .btn.btn-primary{
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .mb-20 {
+        margin-bottom: 10px !important;
+    }
+
+    .mb-30 {
+        margin-bottom: 15px !important;
+    }
+
+    .mb-40 {
+        margin-bottom: 20px !important;
+    }
+
+    .mb-50 {
+        margin-bottom: 25px !important;
+    }
+
+    .mb-80 {
+        margin-bottom: 40px !important;
+    }
+
+    /* .section-title h1 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .section-title h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .section-title h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .section-title h5 {
+        font-size: 16px;
+        line-height: 24px;
+    } */
+
+    /* .responsive-search .input-box{
+        right: 70px;
+    } */
+
+    .header-section .nav-quick-links{
+        padding-right: 3.7rem;
+    }
+
+    .faq-section .accordion-item .accordion-header .accordion-button{
+        font-size: 18px !important;
+        line-height: 28px;
+        padding: 16px;
+    }
+    .faq-section .accordion-item .accordion-body{
+        padding: 16px;
+        padding-top: 0;
+    }
+
+    .greeting-gift-section .gift-card .offer-img {
+        width: 50%;
+    }
+
+    .header-section .nav-quick-links {
+        gap: 10px;
+    }
+
+    .make-moment-special-section .left-section {
+        padding: 20px;
+    }
+
+    .footer {
+        padding-top: 2rem;
+    }
+    .explore-section .best-card .favourite{
+        height: 30px;
+        width: 30px;
+    }
+    .explore-section .best-card .favourite img{
+        width: 18px;
+    }
+    .cart-section .left-section .card .item-image{
+        width: 100%;
+    }
+    .cart-section .left-section .card .card-body{
+        padding: 16px;
+        padding-bottom: 0;
+    }
+    .cart-section .left-section .card .card-body p{
+        margin-bottom: 10px;
+    }
+    .pagination-section .page-item .page-link{
+        width: 50px;
+        height: 50px;
+    }
+    .tag-list{
+        gap: 16px;
+    }
+    .tag{
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 20px;
+    }
+    .account-pages-section .order-history .card-body .card-image{
+        width: 100%;
+    }
+
+    .account-order-section .order-tab{
+        gap: 6px;
+    }
+    .account-order-section .order-tab .nav-link{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-section .nav-quick-links{
+        gap: 0;
+    }
+    /* .header-section .nav-quick-links a{
+        margin-right: 30px;
+    } */
+}
+
+@media (max-width: 425px) {
+    .header-section .nav-quick-links a{
+        font-size: 14px;
+    }
+    .personalise-action-buttons .btn.btn-outline-primary,
+    .personalise-action-buttons .btn.btn-primary{
+        min-width: auto;
+    }
+    .cart-section .card .card-body .detail p{
+        text-align: right;
+    }
+    .account .card .card-body, .account-pages-section .order-history .card-body, .account-pages-section .order-history .card-header {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .header-section .nav-quick-links a{
+        font-size: 12px;
+    }
+    .pagination-section .page-item .page-link{
+        width: 40px;
+        height: 40px;
+        font-size: 16px !important;
+    }
+}

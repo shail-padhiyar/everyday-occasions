@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everyday Occasions</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.svg">
+
+    <!--======================================== Font Family ========================================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--======================================== Font Family ========================================-->
+
+
+    <!--======================================== CSS Links ========================================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--======================================== CSS Links ========================================-->
+</head>
+<body>
+    <!--======================================== Header Section ========================================-->
+    <header class="header-section">
+        <nav class="navbar navbar-expand-xl bg-theme-primary flex-column">
+            <div class="container align-items-start">
+                <div class="row align-items-center w-100">
+                    <div class="col-xl-6 col-3 order-0 order-xl-1">
+                        <div class="header responsive-header col-auto" id="header">
+                            <nav class="navbar container position-md-unset py-0">
+                                <section class="navbar-center ">
+                                    <div onclick="topFunction()" class="burger" id="burger">
+                                       <span class="burger-line"></span>
+                                       <span class="burger-line"></span>
+                                       <span class="burger-line"></span>
+                                    </div>
+                                   <span class="overlay"></span>
+                                   <div class="menu" id="menu">
+                                        
+                                      <div class="menu-header">
+                                         <span class="menu-arrow d-flex align-items-center justify-content-center">
+                                             <img src="images/icon-arrow-right-forward-orange.svg" width="16" class="rotate-180" alt="icon">
+                                         </span>
+                                         <span class="menu-title"></span>
+                                      </div>
+                                      <ul class="menu-inner ps-0 mb-0">
+                                         <li class="menu-item menu-dropdown">
+                                            <span class="menu-link">Collection<i class="bi bi-chevron-right"></i></span>
+                                            <div class="submenu megamenu">
+                                                 <div class="container">
+                                                     <div class="row">
+                                                         <div class="col-lg-9">
+                                                             <div class="row">
+                                                                 <div class="col-lg-4">
+                                                                     <h4 class="submenu-title">Collections by Celebrations</h4>
+                                                                     <ul class="submenu-list">
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Christmas</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Anniversary</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Engagement</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Wedding</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">New Year</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Thanksgiving</a></li>
+                                                                     </ul>
+                                                                 </div>
+                 
+                                                                 <div class="col-lg-4">
+                                                                     <h4 class="submenu-title">Collections</h4>
+                                                                     <ul class="submenu-list">
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Friends Forever</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">For Her</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">For Him</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">For Daughter</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">For Son</a></li>
+                                                                         <li class="submenu-item"><a href="collection-combo.html" class="submenu-link text-theme-primary fw-semibold">View All</a></li>
+                                                                     </ul>
+                                                                 </div>
+                                                                 <div class="col-lg-4">
+                                                                     <h4 class="submenu-title">Collections by Price</h4>
+                                                                     <ul class="submenu-list">
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Under 15 AED</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Under 20 AED</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Under 25 AED</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Under 30 AED</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Under 50 AED</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">Under 100 AED</a></li>
+                                                                     </ul>
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+         
+         
+                                                         <div class="col-lg-3">
+                                                             <img src="images/home-page/menu-collection.jpg" class="img-fluid" alt="Collection Image">
+                                                         </div>
+                                                     </div>
+                                                 </div>
+                                            </div>
+                                         </li>
+    
+                                         <li class="menu-item menu-dropdown">
+                                             <span class="menu-link">Cards<i class="bi bi-chevron-right"></i></span>
+                                             <div class="submenu megamenu">
+                                                  <div class="container">
+                                                      <div class="row">
+                                                          <div class="col-lg-9">
+                                                              <div class="row">
+                                                                  <div class="col-lg-3">
+                                                                      <h4 class="submenu-title">Cards by Recipient</h4>
+                                                                      <ul class="submenu-list">
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">For Her</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">For Him</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">For Friends</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">For Couples</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Mom</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Dad</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Wife</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Husband</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Daughter</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Son</a></li>
+                                                                          <li class="submenu-item"><a href="cards.html" class="submenu-link text-theme-primary fw-semibold">View All</a></li>
+                                                                      </ul>
+                                                                  </div>
+                  
+                                                                  <div class="col-lg-3">
+                                                                      <h4 class="submenu-title">Cards by Celebrations</h4>
+                                                                      <ul class="submenu-list">
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Birthday</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Thankyou</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Valentines</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Congratulations</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Engagement</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Wedding Anniversary</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Graduation</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">New Home</a></li>
+                                                                      </ul>
+                                                                  </div>
+                                                                  <div class="col-lg-3">
+                                                                      <h4 class="submenu-title">Cards Styles</h4>
+                                                                      <ul class="submenu-list">
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Customise Your Card</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Gift Cards</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">New Baby</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Grad</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">eCards</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Kids Special</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Posts Cards</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Photo</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Photo Collage</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Funny</a></li>
+                                                                          <li class="submenu-item"><a href="#" class="submenu-link">Trending</a></li>
+                                                                      </ul>
+                                                                  </div>
+                                                                  <div class="col-lg-3">
+                                                                     <h4 class="submenu-title">Birthday Cards by Age</h4>
+                                                                     <ul class="submenu-list">
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">1st Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">5th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">10th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">18th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">21st Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">30th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">40th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">50th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">60th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">70th Birthday</a></li>
+                                                                         <li class="submenu-item"><a href="#" class="submenu-link">All Ages</a></li>
+                                                                     </ul>
+                                                                 </div>
+                                                              </div>
+                                                          </div>
+          
+                                                          <div class="col-lg-3">
+                                                              <img src="images/home-page/menu-cards.jpg" class="img-fluid" alt="Cards Image">
+                                                          </div>
+                                                      </div>
+                                                  </div>
+                                             </div>
+                                         </li>
+    
+                                         <li class="menu-item"><a href="cards.html" class="menu-link">Create Your Own Cards</a></li>
+                                         <li class="menu-item"><a href="#" class="menu-link">Flowers</a></li>
+                                         <li class="menu-item"><a href="#" class="menu-link">Chocolates</a></li>
+
+                                         <li class="menu-item d-lg-none"><a href="account.html" class="menu-link">Account</a></li>
+                                         <li class="menu-item d-lg-none"><a href="reminders.html" class="menu-link">Reminders</a></li>
+                                         <li class="menu-item d-lg-none"><a href="notification.html" class="menu-link">Notification</a></li>
+                                      </ul>
+                                   </div>
+                                </section>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-auto col-6 order-1 order-xl-0 text-center text-xl-start">
+                        <a class="navbar-brand me-xl-4 me-0" href="index.html">
+                            <img src="images/logo.svg" height="64" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="col-3 order-2">
+                        <div class="nav-quick-links position-relative d-lg-flex d-none">
+                            <div class="responsive-search">
+                                <div class="input-box">
+                                  <input type="text" placeholder="Quick Search">
+                                  <span class="search">
+                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.5 22.25C5.85 22.25 1.25 17.65 1.25 12C1.25 6.35 5.85 1.75 11.5 1.75C17.15 1.75 21.75 6.35 21.75 12C21.75 17.65 17.15 22.25 11.5 22.25ZM11.5 3.25C6.67 3.25 2.75 7.18 2.75 12C2.75 16.82 6.67 20.75 11.5 20.75C16.33 20.75 20.25 16.82 20.25 12C20.25 7.18 16.33 3.25 11.5 3.25Z" fill="#292D32"/>
+                                        <path d="M21.9999 23.2499C21.8099 23.2499 21.6199 23.1799 21.4699 23.0299L19.4699 21.0299C19.1799 20.7399 19.1799 20.2599 19.4699 19.9699C19.7599 19.6799 20.2399 19.6799 20.5299 19.9699L22.5299 21.9699C22.8199 22.2599 22.8199 22.7399 22.5299 23.0299C22.3799 23.1799 22.1899 23.2499 21.9999 23.2499Z" fill="#292D32"/>
+                                        </svg>                                    
+                                  </span>
+                                  <i class="close-icon"><svg height="16" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg" id="fi_1828778">
+                                      <path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0">
+                                      </path>
+                                    </svg></i>
+                                </div>
+                            </div>
+                            <a href="account.html">
+                                <svg width="22" height="22" class="mb-1" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_219_1212)">
+                                    <path d="M19.25 21.9999H17.4167V17.3772C17.4159 16.6585 17.1301 15.9695 16.622 15.4613C16.1138 14.9531 15.4248 14.6673 14.7061 14.6666H7.29392C6.57525 14.6673 5.88622 14.9531 5.37805 15.4613C4.86987 15.9695 4.58406 16.6585 4.58333 17.3772V21.9999H2.75V17.3772C2.75146 16.1725 3.23066 15.0176 4.08249 14.1657C4.93432 13.3139 6.08924 12.8347 7.29392 12.8333H14.7061C15.9108 12.8347 17.0657 13.3139 17.9175 14.1657C18.7693 15.0176 19.2485 16.1725 19.25 17.3772V21.9999Z" fill="currentColor"/>
+                                    <path d="M11 11C9.91221 11 8.84884 10.6774 7.94437 10.0731C7.0399 9.46874 6.33495 8.60976 5.91867 7.60476C5.50238 6.59977 5.39346 5.4939 5.60568 4.42701C5.8179 3.36011 6.34173 2.3801 7.11092 1.61092C7.8801 0.841726 8.86011 0.317902 9.92701 0.105683C10.9939 -0.106535 12.0998 0.00238307 13.1048 0.418665C14.1098 0.834947 14.9687 1.5399 15.5731 2.44437C16.1774 3.34884 16.5 4.41221 16.5 5.5C16.4985 6.95825 15.9186 8.35635 14.8875 9.38748C13.8563 10.4186 12.4582 10.9985 11 11ZM11 1.83334C10.2748 1.83334 9.56589 2.04838 8.96291 2.45128C8.35993 2.85418 7.88997 3.42683 7.61244 4.09683C7.33492 4.76683 7.26231 5.50407 7.40379 6.21533C7.54527 6.9266 7.89448 7.57994 8.40728 8.09273C8.92007 8.60552 9.57341 8.95474 10.2847 9.09622C10.9959 9.23769 11.7332 9.16508 12.4032 8.88756C13.0732 8.61004 13.6458 8.14007 14.0487 7.53709C14.4516 6.93411 14.6667 6.2252 14.6667 5.5C14.6667 4.52754 14.2804 3.59491 13.5927 2.90728C12.9051 2.21964 11.9725 1.83334 11 1.83334Z" fill="currentColor"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_219_1212">
+                                    <rect width="22" height="22" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                            <a href="reminders.html">
+                                <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.83337 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.1666 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3.70837 8.33252H19.2917" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.75 7.79159V15.5833C19.75 18.3333 18.375 20.1666 15.1667 20.1666H7.83333C4.625 20.1666 3.25 18.3333 3.25 15.5833V7.79159C3.25 5.04159 4.625 3.20825 7.83333 3.20825H15.1667C18.375 3.20825 19.75 5.04159 19.75 7.79159Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14.8868 12.5582H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M14.8868 15.3082H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11.4959 12.5582H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M11.4959 15.3082H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.10308 12.5582H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.10308 15.3082H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="notification.html">
+                                <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.5 9.64381C11.1242 9.64381 10.8125 9.33214 10.8125 8.95631V5.90381C10.8125 5.52798 11.1242 5.21631 11.5 5.21631C11.8758 5.21631 12.1875 5.52798 12.1875 5.90381V8.95631C12.1875 9.34131 11.8758 9.64381 11.5 9.64381Z" fill="currentColor"/>
+                                    <path d="M11.5178 18.6542C9.15281 18.6542 6.79697 18.2784 4.55114 17.5267C3.71697 17.2517 3.08447 16.6559 2.80947 15.9042C2.53447 15.1526 2.62614 14.2909 3.0753 13.5392L4.23947 11.5959C4.49614 11.1651 4.7253 10.3584 4.7253 9.85422V7.92922C4.7253 4.18005 7.76864 1.13672 11.5178 1.13672C15.267 1.13672 18.3103 4.18005 18.3103 7.92922V9.85422C18.3103 10.3492 18.5395 11.1651 18.7961 11.5959L19.9603 13.5392C20.3911 14.2542 20.4645 15.1067 20.1803 15.8859C19.8961 16.6651 19.2728 17.2609 18.4845 17.5267C16.2386 18.2876 13.8828 18.6542 11.5178 18.6542ZM11.5178 2.52089C8.52947 2.52089 6.1003 4.95005 6.1003 7.93839V9.86339C6.1003 10.6059 5.80697 11.6784 5.42197 12.3109L4.2578 14.2634C4.01947 14.6576 3.96447 15.0792 4.10197 15.4459C4.23947 15.8126 4.55114 16.0876 4.99114 16.2342C9.2078 17.6367 13.8461 17.6367 18.0628 16.2342C18.457 16.1059 18.7595 15.8126 18.897 15.4276C19.0436 15.0426 18.9978 14.6209 18.787 14.2634L17.6228 12.3201C17.2378 11.6876 16.9445 10.6151 16.9445 9.87255V7.94755C16.9353 4.95005 14.5061 2.52089 11.5178 2.52089Z" fill="currentColor"/>
+                                    <path d="M11.4998 20.992C10.5189 20.992 9.55643 20.5886 8.85977 19.892C8.1631 19.1953 7.75977 18.2328 7.75977 17.252H9.13477C9.13477 17.8753 9.39143 18.4803 9.83143 18.9203C10.2714 19.3603 10.8764 19.617 11.4998 19.617C12.8014 19.617 13.8648 18.5536 13.8648 17.252H15.2398C15.2398 19.3145 13.5623 20.992 11.4998 20.992Z" fill="currentColor"/>
+                                </svg>
+                            </a>
+                            <a href="cart.html">
+                                <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.20002 5.95825H14.8C17.9167 5.95825 18.2284 7.41575 18.4392 9.19408L19.2642 16.0691C19.53 18.3241 18.8334 20.1666 15.625 20.1666H7.38419C4.16669 20.1666 3.47002 18.3241 3.74502 16.0691L4.57003 9.19408C4.7717 7.41575 5.08336 5.95825 8.20002 5.95825Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.83337 7.33325V4.12492C7.83337 2.74992 8.75004 1.83325 10.125 1.83325H12.875C14.25 1.83325 15.1667 2.74992 15.1667 4.12492V7.33325" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="nav-quick-links position-relative d-lg-none p-0">
+                            <a href="cart.html">
+                                <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8.20002 5.95825H14.8C17.9167 5.95825 18.2284 7.41575 18.4392 9.19408L19.2642 16.0691C19.53 18.3241 18.8334 20.1666 15.625 20.1666H7.38419C4.16669 20.1666 3.47002 18.3241 3.74502 16.0691L4.57003 9.19408C4.7717 7.41575 5.08336 5.95825 8.20002 5.95825Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M7.83337 7.33325V4.12492C7.83337 2.74992 8.75004 1.83325 10.125 1.83325H12.875C14.25 1.83325 15.1667 2.74992 15.1667 4.12492V7.33325" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Icons -->
+            <div class="container mt-2 justify-content-between d-lg-none">
+                <div class="nav-quick-links position-relative justify-content-start d-none">
+                    <div class="responsive-search">
+                        <div class="input-box">
+                          <input type="text" placeholder="Quick Search">
+                          <span class="search">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.5 22.25C5.85 22.25 1.25 17.65 1.25 12C1.25 6.35 5.85 1.75 11.5 1.75C17.15 1.75 21.75 6.35 21.75 12C21.75 17.65 17.15 22.25 11.5 22.25ZM11.5 3.25C6.67 3.25 2.75 7.18 2.75 12C2.75 16.82 6.67 20.75 11.5 20.75C16.33 20.75 20.25 16.82 20.25 12C20.25 7.18 16.33 3.25 11.5 3.25Z" fill="#292D32"/>
+                                <path d="M21.9999 23.2499C21.8099 23.2499 21.6199 23.1799 21.4699 23.0299L19.4699 21.0299C19.1799 20.7399 19.1799 20.2599 19.4699 19.9699C19.7599 19.6799 20.2399 19.6799 20.5299 19.9699L22.5299 21.9699C22.8199 22.2599 22.8199 22.7399 22.5299 23.0299C22.3799 23.1799 22.1899 23.2499 21.9999 23.2499Z" fill="#292D32"/>
+                                </svg>                                    
+                          </span>
+                          <i class="close-icon"><svg height="16" viewBox="0 0 329.26933 329" width="16" xmlns="http://www.w3.org/2000/svg" id="fi_1828778">
+                              <path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0">
+                              </path>
+                            </svg></i>
+                        </div>
+                    </div>
+                    <a href="account.html">
+                        <svg width="22" height="22" class="mb-1" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_219_1212)">
+                            <path d="M19.25 21.9999H17.4167V17.3772C17.4159 16.6585 17.1301 15.9695 16.622 15.4613C16.1138 14.9531 15.4248 14.6673 14.7061 14.6666H7.29392C6.57525 14.6673 5.88622 14.9531 5.37805 15.4613C4.86987 15.9695 4.58406 16.6585 4.58333 17.3772V21.9999H2.75V17.3772C2.75146 16.1725 3.23066 15.0176 4.08249 14.1657C4.93432 13.3139 6.08924 12.8347 7.29392 12.8333H14.7061C15.9108 12.8347 17.0657 13.3139 17.9175 14.1657C18.7693 15.0176 19.2485 16.1725 19.25 17.3772V21.9999Z" fill="currentColor"/>
+                            <path d="M11 11C9.91221 11 8.84884 10.6774 7.94437 10.0731C7.0399 9.46874 6.33495 8.60976 5.91867 7.60476C5.50238 6.59977 5.39346 5.4939 5.60568 4.42701C5.8179 3.36011 6.34173 2.3801 7.11092 1.61092C7.8801 0.841726 8.86011 0.317902 9.92701 0.105683C10.9939 -0.106535 12.0998 0.00238307 13.1048 0.418665C14.1098 0.834947 14.9687 1.5399 15.5731 2.44437C16.1774 3.34884 16.5 4.41221 16.5 5.5C16.4985 6.95825 15.9186 8.35635 14.8875 9.38748C13.8563 10.4186 12.4582 10.9985 11 11ZM11 1.83334C10.2748 1.83334 9.56589 2.04838 8.96291 2.45128C8.35993 2.85418 7.88997 3.42683 7.61244 4.09683C7.33492 4.76683 7.26231 5.50407 7.40379 6.21533C7.54527 6.9266 7.89448 7.57994 8.40728 8.09273C8.92007 8.60552 9.57341 8.95474 10.2847 9.09622C10.9959 9.23769 11.7332 9.16508 12.4032 8.88756C13.0732 8.61004 13.6458 8.14007 14.0487 7.53709C14.4516 6.93411 14.6667 6.2252 14.6667 5.5C14.6667 4.52754 14.2804 3.59491 13.5927 2.90728C12.9051 2.21964 11.9725 1.83334 11 1.83334Z" fill="currentColor"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_219_1212">
+                            <rect width="22" height="22" fill="white"/>
+                            </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="reminders.html">
+                        <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.83337 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.1666 1.83325V4.58325" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3.70837 8.33252H19.2917" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M19.75 7.79159V15.5833C19.75 18.3333 18.375 20.1666 15.1667 20.1666H7.83333C4.625 20.1666 3.25 18.3333 3.25 15.5833V7.79159C3.25 5.04159 4.625 3.20825 7.83333 3.20825H15.1667C18.375 3.20825 19.75 5.04159 19.75 7.79159Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14.8868 12.5582H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14.8868 15.3082H14.895" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.4959 12.5582H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M11.4959 15.3082H11.5041" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.10308 12.5582H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.10308 15.3082H8.11131" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="notification.html">
+                        <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M11.5 9.64381C11.1242 9.64381 10.8125 9.33214 10.8125 8.95631V5.90381C10.8125 5.52798 11.1242 5.21631 11.5 5.21631C11.8758 5.21631 12.1875 5.52798 12.1875 5.90381V8.95631C12.1875 9.34131 11.8758 9.64381 11.5 9.64381Z" fill="currentColor"/>
+                            <path d="M11.5178 18.6542C9.15281 18.6542 6.79697 18.2784 4.55114 17.5267C3.71697 17.2517 3.08447 16.6559 2.80947 15.9042C2.53447 15.1526 2.62614 14.2909 3.0753 13.5392L4.23947 11.5959C4.49614 11.1651 4.7253 10.3584 4.7253 9.85422V7.92922C4.7253 4.18005 7.76864 1.13672 11.5178 1.13672C15.267 1.13672 18.3103 4.18005 18.3103 7.92922V9.85422C18.3103 10.3492 18.5395 11.1651 18.7961 11.5959L19.9603 13.5392C20.3911 14.2542 20.4645 15.1067 20.1803 15.8859C19.8961 16.6651 19.2728 17.2609 18.4845 17.5267C16.2386 18.2876 13.8828 18.6542 11.5178 18.6542ZM11.5178 2.52089C8.52947 2.52089 6.1003 4.95005 6.1003 7.93839V9.86339C6.1003 10.6059 5.80697 11.6784 5.42197 12.3109L4.2578 14.2634C4.01947 14.6576 3.96447 15.0792 4.10197 15.4459C4.23947 15.8126 4.55114 16.0876 4.99114 16.2342C9.2078 17.6367 13.8461 17.6367 18.0628 16.2342C18.457 16.1059 18.7595 15.8126 18.897 15.4276C19.0436 15.0426 18.9978 14.6209 18.787 14.2634L17.6228 12.3201C17.2378 11.6876 16.9445 10.6151 16.9445 9.87255V7.94755C16.9353 4.95005 14.5061 2.52089 11.5178 2.52089Z" fill="currentColor"/>
+                            <path d="M11.4998 20.992C10.5189 20.992 9.55643 20.5886 8.85977 19.892C8.1631 19.1953 7.75977 18.2328 7.75977 17.252H9.13477C9.13477 17.8753 9.39143 18.4803 9.83143 18.9203C10.2714 19.3603 10.8764 19.617 11.4998 19.617C12.8014 19.617 13.8648 18.5536 13.8648 17.252H15.2398C15.2398 19.3145 13.5623 20.992 11.4998 20.992Z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="cart.html">
+                        <svg width="23" height="22" class="mb-1" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.20002 5.95825H14.8C17.9167 5.95825 18.2284 7.41575 18.4392 9.19408L19.2642 16.0691C19.53 18.3241 18.8334 20.1666 15.625 20.1666H7.38419C4.16669 20.1666 3.47002 18.3241 3.74502 16.0691L4.57003 9.19408C4.7717 7.41575 5.08336 5.95825 8.20002 5.95825Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.83337 7.33325V4.12492C7.83337 2.74992 8.75004 1.83325 10.125 1.83325H12.875C14.25 1.83325 15.1667 2.74992 15.1667 4.12492V7.33325" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <form class="d-flex header-search" role="search">
+                    <div class="input-group mt-2 mb-0 d-md-flex">
+                        <input type="text" class="form-control border-end-0 pe-0" id="headerSearch" placeholder="Search here.."  aria-describedby="headerSearch">
+                        <label class="input-group-text bg-white cursor-pointer" for="headerSearch"><img src="images/icon-search.svg" alt="icon"></label>
+                    </div>
+                </form>
+
+            </div>
+        </nav>
+        
+    </header>
+    <!--======================================== Header Section ========================================-->
+    
+
+    <!--======================================== Main Section ========================================-->
+    <main>
+        <!--======================================== Account Page Section ========================================-->
+        <section class="account-order-section mb-80 border-top border-2 pt-sm-5 pt-4">
+            <div class="container">
+                <div class="section-title mb-20">
+                    <h2>Notification</h2>
+                    <p class="opacity-06 mb-0">You have 3 unread notification</p>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-between align-items-center mb-20">
+                        <ul class="nav nav-tabs order-tab" id="orderTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="orders-tab" data-bs-toggle="tab" data-bs-target="#orders-tab-pane" type="button" role="tab" aria-controls="orders-tab-pane" aria-selected="false">Orders</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="offers-tab" data-bs-toggle="tab" data-bs-target="#offers-tab-pane" type="button" role="tab" aria-controls="offers-tab-pane" aria-selected="false">Offers</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="alert-tab" data-bs-toggle="tab" data-bs-target="#alert-tab-pane" type="button" role="tab" aria-controls="alert-tab-pane" aria-selected="false">Alert</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content order-detail" id="orderTabContent">
+                        <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+                            <div class="card rounded-20 mb-20">
+                                <div class="card-body p-3 p-md-4 d-flex align-items-center flex-wrap flex-md-nowrap">
+                                    <div>
+                                        <img src="images/icon-order-placed.svg" alt="icon">
+                                    </div>
+                                    <div class="ms-md-3 mt-md-0 mt-3 order-2 order-md-1">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <h5 class="mb-0">Order Placed</h5>
+                                            <p class="badge badge-green ms-2 fs-12 fw-medium">New</p>
+                                        </div>
+                                        <div>
+                                            <p class="after-dot mb-0 d-inline-block">24 Jan</p>
+                                            <p class="after-dot mb-0 d-inline-block">2h ago</p>
+                                            <p class="mb-0 d-inline-block">Your order is placed and continues..</p>
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto d-flex order-1">
+                                        <button class="btn btn-primary py-2" data-bs-toggle="modal" data-bs-target="#viewOrder">View order</button>
+                                        <button class="btn ms-2 p-0"><img src="images/icon-cancel.svg" alt="icon"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card rounded-20 mb-20">
+                                <div class="card-body p-3 p-md-4 d-flex align-items-center flex-wrap flex-md-nowrap">
+                                    <div>
+                                        <img src="images/icon-special-offer.svg" alt="svg">
+                                    </div>
+                                    <div class="ms-md-3 mt-md-0 mt-3 order-2 order-md-1">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <h5 class="mb-0">Special Offer 20% Off</h5>
+                                            <p class="badge badge-green ms-2 fs-12 fw-medium">New</p>
+                                        </div>
+                                        <div>
+                                            <p class="after-dot mb-0 d-inline-block">24 Jan</p>
+                                            <p class="after-dot mb-0 d-inline-block">2h ago</p>
+                                            <p class="mb-0 d-inline-block">Hey get 20% off on Christmas card</p>
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto d-flex order-1">
+                                        <button class="btn btn-primary py-2" data-bs-toggle="modal" data-bs-target="#viewOrder">View order</button>
+                                        <button class="btn ms-2 p-0"><img src="images/icon-cancel.svg" alt="icon"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card rounded-20 mb-20">
+                                <div class="card-body p-3 p-md-4 d-flex align-items-center flex-wrap flex-md-nowrap">
+                                    <div>
+                                        <img src="images/icon-preparing-an-order.svg" alt="svg">
+                                    </div>
+                                    <div class="ms-md-3 mt-md-0 mt-3 order-2 order-md-1">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <h5 class="mb-0">Preparing an Order </h5>
+                                        </div>
+                                        <div>
+                                            <p class="after-dot mb-0 d-inline-block">24 Jan</p>
+                                            <p class="after-dot mb-0 d-inline-block">2h ago</p>
+                                            <p class="mb-0 d-inline-block">Your order is placed and continues..</p>
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto d-flex order-1">
+                                        <button class="btn btn-primary py-2" data-bs-toggle="modal" data-bs-target="#viewOrder">View order</button>
+                                        <button class="btn ms-2 p-0"><img src="images/icon-cancel.svg" alt="icon"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card rounded-20 mb-20">
+                                <div class="card-body p-3 p-md-4 d-flex align-items-center flex-wrap flex-md-nowrap">
+                                    <div>
+                                        <img src="images/icon-offer-ended.svg" alt="svg">
+                                    </div>
+                                    <div class="ms-md-3 mt-md-0 mt-3 order-2 order-md-1">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <h5 class="mb-0">Your Offer is Ended </h5>
+                                        </div>
+                                        <div>
+                                            <p class="after-dot mb-0 d-inline-block">24 Jan</p>
+                                            <p class="after-dot mb-0 d-inline-block">2h ago</p>
+                                            <p class="mb-0 d-inline-block">Your offer is ended</p>
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto d-flex order-1">
+                                        <!-- <button class="btn btn-primary py-2">View order</button> -->
+                                        <button class="btn ms-2 p-0"><img src="images/icon-cancel.svg" alt="icon"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card rounded-20 mb-20">
+                                <div class="card-body p-3 p-md-4 d-flex align-items-center flex-wrap flex-md-nowrap">
+                                    <div>
+                                        <img src="images/icon-order-dispatched.svg" alt="svg">
+                                    </div>
+                                    <div class="ms-md-3 mt-md-0 mt-3 order-2 order-md-1">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <h5 class="mb-0">Order dispatched </h5>
+                                        </div>
+                                        <div>
+                                            <p class="after-dot mb-0 d-inline-block">24 Jan</p>
+                                            <p class="after-dot mb-0 d-inline-block">2h ago</p>
+                                            <p class="mb-0 d-inline-block">Lorem Ipsum is simply and typesetting industry. </p>
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto d-flex order-1">
+                                        <button class="btn btn-primary py-2" data-bs-toggle="modal" data-bs-target="#viewOrder">View order</button>
+                                        <button class="btn ms-2 p-0"><img src="images/icon-cancel.svg" alt="icon"></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card rounded-20 mb-20">
+                                <div class="card-body p-3 p-md-4 d-flex align-items-center flex-wrap flex-md-nowrap">
+                                    <div>
+                                        <img src="images/icon-out-for-delivery.svg" alt="svg">
+                                    </div>
+                                    <div class="ms-md-3 mt-md-0 mt-3 order-2 order-md-1">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <h5 class="mb-0">Out for Delivery </h5>
+                                        </div>
+                                        <div>
+                                            <p class="after-dot mb-0 d-inline-block">24 Jan</p>
+                                            <p class="after-dot mb-0 d-inline-block">2h ago</p>
+                                            <p class="mb-0 d-inline-block">Lorem Ipsum is simply and typesetting industry. </p>
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto d-flex order-1">
+                                        <button class="btn btn-primary py-2" data-bs-toggle="modal" data-bs-target="#viewOrder">View order</button>
+                                        <button class="btn ms-2 p-0"><img src="images/icon-cancel.svg" alt="icon"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="orders-tab-pane" role="tabpanel" aria-labelledby="orders-tab" tabindex="0">
+                            Orders Tab
+                        </div>
+                        <div class="tab-pane fade" id="offers-tab-pane" role="tabpanel" aria-labelledby="offers-tab" tabindex="0">
+                            Offers Tab
+                        </div>
+                        <div class="tab-pane fade" id="alert-tab-pane" role="tabpanel" aria-labelledby="alert-tab" tabindex="0">
+                            Alert Tab
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--======================================== Account Page Section ========================================-->
+    </main>
+    <!--======================================== Main Section ========================================-->
+
+    <!--======================================== Footer Section ========================================-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12 mx-auto">
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4">
+                    <img src="images/logo.svg" height="64" alt="logo" class="mb-4">
+                    <p>Discover the favorites that everyone loves, perfect for making special moments unforgettable.</p>   
+                  </div>
+                  <div class="col-xl-6 col-lg-7 right-section ms-auto mt-lg-0 mt-3">
+                    <div class="row">
+                        <div class="col-md-3 col-6">
+                            <div class="list">
+                                <ul>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="service.html">Services</a></li>
+                                    <li><a href="contact-us.html">Contact Us</a></li>
+                                    <li><a href="help-and-support.html">Help & Support</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-6">
+                            <div class="list">
+                                <ul>
+                                  <li><a href="blog.html">Blog</a></li>
+                                  <li><a href="career.html">Career</a></li>
+                                  <li><a href="faq.html">FAQ's</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mt-md-0 mt-3 pt-md-0 pt-2">
+                            <div class="list">
+                                <ul>
+                                    <li class="d-flex"><i class="bi bi-envelope me-2 text-theme-yellow"></i> <a href="#">foreveroccasions@gmail.com</a></li>
+                                    <li class="d-flex"><i class="bi bi-whatsapp me-2 text-theme-yellow"></i> <a href="#">+971 50 123 4567</a></li>
+                                    <li class="d-flex"><i class="bi bi-geo-alt me-2 text-theme-yellow"></i> <a href="#">1000 S Enterprise St Apt 2, Wasilla, AK United Arab Emirates- 99654-8231</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                  </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-xl-4 col-lg-5 col-md-12 mb-3 mb-md-0 text-center text-md-start d-lg-block d-flex justify-content-md-between justify-content-center flex-wrap">
+                            <p class="mb-3 mb-md-0">© 2024 Everyday Occasions. All rights reserved.</p>
+                            <div class="d-lg-none d-flex align-items-center mb-2">
+                                <a class="me-4" href="privacy-policy.html">Privacy Policy</a>
+                                <a href="terms-and-condition.html">Terms and Conditions</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-7 col-md-12">
+                            <div class="row">
+                                <div class="col-lg-9 col-md-6 d-lg-flex d-none justify-content-lg-center justify-content-xl-end align-items-center mb-3 mb-md-0">
+                                    <a class="me-4" href="privacy-policy.html">Privacy Policy</a>
+                                    <a href="terms-and-condition.html">Terms and Conditions</a>
+                                </div>
+                                <div class="col-lg-3 col-md-12 d-flex justify-content-center justify-content-lg-end gap-4 align-items-center mt-lg-0 mt-md-4">
+                                    <a href="#"><img src="images/icon-facebook-rounded.svg"></a>
+                                    <a href="#"><img src="images/icon-instagram-rounded.svg"></a>
+                                    <a href="#"><img src="images/icon-youtube-rounded.svg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </footer>
+    <!--======================================== Footer Section ========================================-->
+
+    <!-- Track Order - Modal -->
+    <div class="modal fade" id="viewOrder" tabindex="-1" aria-labelledby="viewOrderLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header px-lg-4 border-0">
+                <h5 class="modal-title" id="viewOrderLabel">Track Order</h5>
+                <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                <a href="javascript:void(0)" data-bs-dismiss="modal" aria-label="Close" class="ms-auto">
+                    <img src="images/close.svg" alt="Close Icon">
+                </a>
+            </div>
+
+            <div class="modal-body px-lg-4 account-pages-section border-0">
+                <div class="row">
+                    <div class="col-lg-12 order-history">
+                        <div class="card-body section-title rounded-20 bg-light p-4">
+                            <div class="d-flex align-items-center flex-column flex-md-row">
+                                <div class="card-image bg-white">
+                                    <img src="images/card-1.jpg" alt="card" class="img-fluid">
+                                </div>
+                                <div class="ms-md-3 ps-md-3 mt-3 mt-md-0 w-100">
+                                    <h4 class="mb-0">Thank You Card</h4>
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <p class="my-3 fw-semibold"><span class="fw-normal text-muted">Size:</span> Standard Card(148 x 210mm)</p>
+                                        </div>
+                                        <div class="col-4 text-end">
+                                            <p class="my-3 fw-semibold"><span class="fw-normal text-muted">Quantity:</span> 2</p>
+                                        </div>
+                                    </div>
+                                    <p class="ms-auto fw-semibold"><span class="fw-normal text-muted">Amount Payed:</span> 11 AED</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 order-status">
+                        <ul class="list-unstyled mt-3">
+                            <li>
+                                <div class="card border-0">
+                                    <div class="card-image done">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M18.6309 26.5425H9.29753C5.30753 26.5425 3.75586 24.9908 3.75586 21.0008V11.6675C3.75586 11.1891 4.15253 10.7925 4.63086 10.7925H23.2975C23.7759 10.7925 24.1725 11.1891 24.1725 11.6675V21.0008C24.1725 24.9908 22.6209 26.5425 18.6309 26.5425ZM5.50586 12.5425V21.0008C5.50586 24.0108 6.28753 24.7925 9.29753 24.7925H18.6309C21.6409 24.7925 22.4225 24.0108 22.4225 21.0008V12.5425H5.50586Z" fill="white"/>
+                                            <path d="M22.7493 12.5409H5.24935C3.20768 12.5409 2.04102 11.3742 2.04102 9.33252V8.16585C2.04102 6.12419 3.20768 4.95752 5.24935 4.95752H22.7493C24.7327 4.95752 25.9577 6.18252 25.9577 8.16585V9.33252C25.9577 11.3159 24.7327 12.5409 22.7493 12.5409ZM5.24935 6.70752C4.18768 6.70752 3.79102 7.10419 3.79102 8.16585V9.33252C3.79102 10.3942 4.18768 10.7909 5.24935 10.7909H22.7493C23.776 10.7909 24.2077 10.3592 24.2077 9.33252V8.16585C24.2077 7.13919 23.776 6.70752 22.7493 6.70752H5.24935Z" fill="white"/>
+                                            <path d="M13.5803 6.70877H7.14027C6.89527 6.70877 6.66194 6.60377 6.49861 6.42877C5.78694 5.6471 5.81027 4.44543 6.55694 3.69877L8.21361 2.0421C8.98361 1.2721 10.2553 1.2721 11.0253 2.0421L14.1986 5.21543C14.4436 5.46043 14.5253 5.84543 14.3853 6.1721C14.2569 6.49877 13.9419 6.70877 13.5803 6.70877ZM7.78194 4.95877H11.4803L9.78861 3.27877C9.69527 3.18543 9.54361 3.18543 9.45027 3.27877L7.79361 4.93543C7.79361 4.9471 7.78194 4.9471 7.78194 4.95877Z" fill="white"/>
+                                            <path d="M20.8484 6.70877H14.4084C14.0584 6.70877 13.7318 6.49877 13.6034 6.1721C13.4634 5.84543 13.5451 5.4721 13.7901 5.21543L16.9634 2.0421C17.7334 1.2721 19.0051 1.2721 19.7751 2.0421L21.4318 3.69877C22.1784 4.44543 22.2134 5.6471 21.4901 6.42877C21.3268 6.60377 21.0934 6.70877 20.8484 6.70877ZM16.5318 4.95877H20.2301C20.2184 4.9471 20.2184 4.9471 20.2068 4.93543L18.5501 3.27877C18.4568 3.18543 18.3051 3.18543 18.2118 3.27877L16.5318 4.95877Z" fill="white"/>
+                                            <path d="M11.5954 19.7175C11.2687 19.7175 10.9304 19.6358 10.627 19.4725C9.96204 19.1108 9.55371 18.4225 9.55371 17.6758V11.6675C9.55371 11.1891 9.95038 10.7925 10.4287 10.7925H17.4754C17.9537 10.7925 18.3504 11.1891 18.3504 11.6675V17.6525C18.3504 18.4108 17.942 19.0991 17.277 19.4491C16.612 19.8108 15.807 19.7641 15.177 19.3441L14.1387 18.6441C14.0454 18.5741 13.917 18.5741 13.812 18.6441L12.7154 19.3675C12.377 19.6008 11.9804 19.7175 11.5954 19.7175ZM11.3037 12.5425V17.6641C11.3037 17.8158 11.397 17.8858 11.4554 17.9208C11.5137 17.9558 11.6304 17.9908 11.7587 17.9091L12.8554 17.1858C13.5437 16.7308 14.4304 16.7308 15.107 17.1858L16.1454 17.8858C16.2737 17.9675 16.3904 17.9325 16.4487 17.8975C16.507 17.8625 16.6004 17.7925 16.6004 17.6408V12.5308H11.3037V12.5425Z" fill="white"/>
+                                        </svg>                                            
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Order Placed</h6>
+                                        <div class="d-flex">
+                                            <p>24 Jan, 2024</p>
+                                            <p>03:45 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                            <li>
+                                <div class="card border-0">
+                                    <div class="card-image done">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M19.8333 26.5417C18.5066 26.5417 17.2096 26.1482 16.1064 25.4111C15.0032 24.674 14.1434 23.6263 13.6356 22.4005C13.1279 21.1747 12.9951 19.8259 13.2539 18.5246C13.5127 17.2233 14.1517 16.028 15.0898 15.0898C16.028 14.1517 17.2233 13.5127 18.5246 13.2539C19.8259 12.9951 21.1747 13.1279 22.4005 13.6356C23.6263 14.1434 24.674 15.0032 25.4111 16.1064C26.1482 17.2096 26.5417 18.5066 26.5417 19.8333C26.5395 21.6118 25.832 23.3169 24.5745 24.5745C23.3169 25.832 21.6118 26.5395 19.8333 26.5417ZM19.8333 14.875C18.8527 14.875 17.894 15.1658 17.0786 15.7106C16.2632 16.2555 15.6277 17.0298 15.2524 17.9359C14.8771 18.8419 14.779 19.8388 14.9703 20.8007C15.1616 21.7625 15.6338 22.646 16.3273 23.3394C17.0207 24.0328 17.9042 24.5051 18.866 24.6964C19.8278 24.8877 20.8248 24.7895 21.7308 24.4142C22.6368 24.039 23.4112 23.4034 23.956 22.588C24.5009 21.7726 24.7917 20.814 24.7917 19.8333C24.7901 18.5188 24.2672 17.2585 23.3377 16.329C22.4082 15.3994 21.1479 14.8765 19.8333 14.875Z" fill="white"/>
+                                            <path d="M18.6663 26.5416H4.66634C3.81563 26.541 2.99993 26.2027 2.39839 25.6012C1.79684 24.9997 1.45863 24.184 1.45801 23.3333V4.66659C1.45863 3.81587 1.79684 3.00018 2.39839 2.39863C2.99993 1.79709 3.81563 1.45887 4.66634 1.45825H18.6663C19.5171 1.45887 20.3327 1.79709 20.9343 2.39863C21.5358 3.00018 21.8741 3.81587 21.8747 4.66659V14.1166C21.8747 14.3486 21.7825 14.5712 21.6184 14.7353C21.4543 14.8994 21.2317 14.9916 20.9997 14.9916C20.7676 14.9916 20.545 14.8994 20.381 14.7353C20.2169 14.5712 20.1247 14.3486 20.1247 14.1166V4.66659C20.1241 4.28 19.9702 3.90943 19.6969 3.63607C19.4235 3.36271 19.0529 3.20887 18.6663 3.20825H4.66634C4.27976 3.20887 3.90918 3.36271 3.63583 3.63607C3.36247 3.90943 3.20862 4.28 3.20801 4.66659V23.3333C3.20862 23.7198 3.36247 24.0904 3.63583 24.3638C3.90918 24.6371 4.27976 24.791 4.66634 24.7916H18.6663C18.7561 24.7943 18.8458 24.7861 18.9335 24.7671C19.0621 24.7392 19.1953 24.74 19.3235 24.7697C19.4517 24.7993 19.5717 24.857 19.675 24.9385C19.7783 25.02 19.8622 25.1234 19.9208 25.2412C19.9794 25.359 20.0112 25.4884 20.0138 25.6199C20.015 25.8308 19.9396 26.0349 19.8016 26.1943C19.6637 26.3537 19.4725 26.4576 19.2637 26.4867C19.067 26.5253 18.8668 26.5437 18.6663 26.5416Z" fill="white"/>
+                                            <path d="M15.1667 9.0415H7C6.76794 9.0415 6.54538 8.94932 6.38128 8.78522C6.21719 8.62113 6.125 8.39857 6.125 8.1665C6.125 7.93444 6.21719 7.71188 6.38128 7.54779C6.54538 7.38369 6.76794 7.2915 7 7.2915H15.1667C15.3987 7.2915 15.6213 7.38369 15.7854 7.54779C15.9495 7.71188 16.0417 7.93444 16.0417 8.1665C16.0417 8.39857 15.9495 8.62113 15.7854 8.78522C15.6213 8.94932 15.3987 9.0415 15.1667 9.0415Z" fill="white"/>
+                                            <path d="M12.8333 13.7083H7C6.76794 13.7083 6.54538 13.6161 6.38128 13.452C6.21719 13.2879 6.125 13.0653 6.125 12.8333C6.125 12.6012 6.21719 12.3786 6.38128 12.2145C6.54538 12.0504 6.76794 11.9583 7 11.9583H12.8333C13.0654 11.9583 13.288 12.0504 13.4521 12.2145C13.6161 12.3786 13.7083 12.6012 13.7083 12.8333C13.7083 13.0653 13.6161 13.2879 13.4521 13.452C13.288 13.6161 13.0654 13.7083 12.8333 13.7083Z" fill="white"/>
+                                            <path d="M19.25 21.8749C19.1351 21.8752 19.0213 21.8527 18.9151 21.8086C18.809 21.7646 18.7126 21.6999 18.6317 21.6183L17.465 20.4516C17.379 20.3715 17.3101 20.2749 17.2623 20.1676C17.2144 20.0602 17.1887 19.9444 17.1867 19.8269C17.1846 19.7094 17.2062 19.5927 17.2502 19.4837C17.2942 19.3748 17.3597 19.2758 17.4428 19.1927C17.5259 19.1096 17.6249 19.0441 17.7338 19.0001C17.8428 18.9561 17.9595 18.9345 18.077 18.9366C18.1944 18.9387 18.3103 18.9644 18.4176 19.0122C18.525 19.06 18.6216 19.129 18.7017 19.2149L19.25 19.7621L20.965 18.0483C21.0451 17.9623 21.1417 17.8933 21.2491 17.8455C21.3564 17.7977 21.4723 17.772 21.5897 17.7699C21.7072 17.7678 21.8239 17.7895 21.9329 17.8335C22.0418 17.8775 22.1408 17.943 22.2239 18.0261C22.307 18.1091 22.3725 18.2081 22.4165 18.3171C22.4605 18.426 22.4821 18.5427 22.48 18.6602C22.478 18.7777 22.4523 18.8936 22.4044 19.0009C22.3566 19.1082 22.2877 19.2048 22.2017 19.2849L19.8684 21.6183C19.7874 21.6999 19.6911 21.7646 19.5849 21.8086C19.4788 21.8527 19.3649 21.8752 19.25 21.8749Z" fill="white"/>
+                                        </svg>                                                                                
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Preparing an order</h6>
+                                        <div class="d-flex">
+                                            <p>25 Jan, 2024</p>
+                                            <p>03:45 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="card border-0">
+                                    <div class="card-image done">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M25.1275 7.43137L14 2.05882C13.8235 1.98039 13.6373 1.98039 13.4706 2.05882L2.34314 7.43137C2.13725 7.52941 2 7.7451 2 7.98039V21.0196C2 21.2549 2.13725 21.4706 2.34314 21.5686L13.4706 26.9412C13.549 26.9804 13.6373 27 13.7353 27C13.8235 27 13.9118 26.9804 14 26.9412L25.1275 21.5686C25.3333 21.4706 25.4608 21.2549 25.4608 21.0196V7.98039C25.4608 7.7451 25.3333 7.52941 25.1275 7.43137ZM21.0588 9.13726L11.3235 4.44118L13.7353 3.27451L23.4706 7.98039L21.0588 9.13726ZM9.94118 5.11765L19.6667 9.81373L18.1275 10.5588L8.40196 5.86275L9.94118 5.11765ZM20.2255 10.8824V14.098L18.7451 14.8137V11.598L20.2255 10.8824ZM24.2549 20.6471L14.3333 25.4314V13.7255L16.6765 12.598C16.8235 12.5294 16.9314 12.402 16.9902 12.2549C17.0392 12.098 17.0294 11.9314 16.9608 11.7843C16.8137 11.4902 16.4608 11.3627 16.1569 11.5098L13.7353 12.6765L12.8431 12.2451C12.6961 12.1765 12.5294 12.1667 12.3824 12.2255C12.2255 12.2745 12.1078 12.3824 12.0392 12.5294C11.8922 12.8333 12.0196 13.1961 12.3137 13.3333L13.1275 13.7255V25.4314L3.20588 20.6471V8.94118L10.7843 12.598C11.0686 12.7353 11.451 12.6078 11.5882 12.3137C11.6569 12.1667 11.6667 12.0098 11.6176 11.8529C11.5686 11.7059 11.451 11.5784 11.3137 11.5098L3.9902 7.98039L7 6.52941L17.5392 11.6176V15.7745C17.5392 15.9902 17.6471 16.1765 17.8235 16.2843C18 16.3922 18.2255 16.4118 18.4118 16.3235L21.098 15.0196C21.3039 14.9216 21.4314 14.7157 21.4314 14.4804V10.3039L24.2549 8.94118V20.6471Z" fill="white"/>
+                                        </svg>                                                                                     
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Order dispatched</h6>
+                                        <div class="d-flex">
+                                            <p>26 Jan, 2024</p>
+                                            <p>03:45 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="card border-0">
+                                    <div class="card-image">
+                                        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_353_5052)">
+                                            <path d="M21.1476 16.6475C19.2014 16.6475 17.6182 18.2307 17.6182 20.1769C17.6182 22.123 19.2014 23.7063 21.1476 23.7063C23.0941 23.7063 24.677 22.123 24.677 20.1769C24.677 18.2307 23.0938 16.6475 21.1476 16.6475ZM21.1476 21.9416C20.1744 21.9416 19.3829 21.1501 19.3829 20.1769C19.3829 19.2037 20.1744 18.4122 21.1476 18.4122C22.1208 18.4122 22.9123 19.2037 22.9123 20.1769C22.9123 21.1502 22.1208 21.9416 21.1476 21.9416Z" fill="#FF9160"/>
+                                            <path d="M9.08802 16.6475C7.14185 16.6475 5.55859 18.2307 5.55859 20.1769C5.55859 22.123 7.14185 23.7063 9.08802 23.7063C11.0342 23.7063 12.6174 22.123 12.6174 20.1769C12.6174 18.2307 11.0342 16.6475 9.08802 16.6475ZM9.08802 21.9416C8.1148 21.9416 7.3233 21.1501 7.3233 20.1769C7.3233 19.2037 8.1148 18.4122 9.08802 18.4122C10.061 18.4122 10.8527 19.2037 10.8527 20.1769C10.8527 21.1502 10.0612 21.9416 9.08802 21.9416Z" fill="#FF9160"/>
+                                            <path d="M23.5235 6.54474C23.3735 6.2468 23.0685 6.05884 22.735 6.05884H18.0879V7.82355H22.1908L24.5935 12.6024L26.1705 11.8094L23.5235 6.54474Z" fill="#FF9160"/>
+                                            <path d="M18.4997 19.3235H11.8232V21.0882H18.4997V19.3235Z" fill="#FF9160"/>
+                                            <path d="M6.44111 19.3235H3.38233C2.89495 19.3235 2.5 19.7185 2.5 20.2058C2.5 20.6932 2.89501 21.0881 3.38233 21.0881H6.44116C6.92854 21.0881 7.32349 20.6931 7.32349 20.2058C7.32349 19.7184 6.92848 19.3235 6.44111 19.3235Z" fill="#FF9160"/>
+                                            <path d="M27.8147 13.9295L26.0791 11.6942C25.9124 11.4789 25.655 11.353 25.3823 11.353H18.9706V5.17652C18.9706 4.68914 18.5756 4.29419 18.0882 4.29419H3.38233C2.89495 4.29419 2.5 4.6892 2.5 5.17652C2.5 5.66384 2.89501 6.05885 3.38233 6.05885H17.2059V12.2353C17.2059 12.7227 17.6009 13.1176 18.0882 13.1176H24.9503L26.2352 14.7729V19.3235H23.7941C23.3067 19.3235 22.9117 19.7185 22.9117 20.2058C22.9117 20.6932 23.3067 21.0882 23.7941 21.0882H27.1176C27.605 21.0882 27.9999 20.6932 28 20.2058V14.4707C28 14.2748 27.9347 14.0842 27.8147 13.9295Z" fill="#FF9160"/>
+                                            <path d="M6.38259 14.8525H2.32373C1.83636 14.8525 1.44141 15.2475 1.44141 15.7349C1.44141 16.2222 1.83641 16.6172 2.32373 16.6172H6.38253C6.86991 16.6172 7.26486 16.2222 7.26486 15.7349C7.26491 15.2475 6.86991 14.8525 6.38259 14.8525Z" fill="#FF9160"/>
+                                            <path d="M8.41176 11.3823H0.882328C0.395008 11.3823 0 11.7773 0 12.2647C0 12.7521 0.395008 13.147 0.882328 13.147H8.41176C8.89913 13.147 9.29409 12.752 9.29409 12.2647C9.29409 11.7774 8.89913 11.3823 8.41176 11.3823Z" fill="#FF9160"/>
+                                            <path d="M9.85316 7.91235H2.32373C1.83636 7.91235 1.44141 8.30736 1.44141 8.79468C1.44141 9.28206 1.83641 9.67701 2.32373 9.67701H9.85316C10.3405 9.67701 10.7355 9.282 10.7355 8.79468C10.7355 8.30736 10.3405 7.91235 9.85316 7.91235Z" fill="#FF9160"/>
+                                            </g>
+                                        </svg>                                                                               
+                                    </div>
+                                    <div class="card-body">
+                                        <h6>Out for delivery</h6>
+                                        <div class="d-flex">
+                                            <p>28 Jan, 2024</p>
+                                            <p>06:45 PM</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    
+    <!--======================================== JS Links ========================================-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--======================================== JS Links ========================================-->
+
+    <script>
+        let inputBox = document.querySelector('.input-box'),
+            searchIcon = document.querySelector('.search'),
+            closeIcon = document.querySelector('.close-icon');
+    
+        // ---- ---- Open Input ---- ---- //
+        searchIcon.addEventListener('click', () => {
+            inputBox.classList.add('open');
+        });
+        // ---- ---- Close Input ---- ---- //
+        closeIcon.addEventListener('click', () => {
+            inputBox.classList.remove('open');
+        });
+    
+    </script>
+
+<script src="js/responsive-menu.js"></script>
+
+</body>
+</html>
